@@ -23,8 +23,6 @@ Esta asignatura aporta al perfil del Ingeniero en Sistemas Computacionales las s
 
 La asignatura proporciona conocimientos para el diseño e implementación de interfaces hombre-máquina y máquina-máquina para la automatización de sistemas, considerando aspectos legales, éticos, sociales y de desarrollo sustentable. Asimismo, fomenta habilidades metodológicas de investigación para el desarrollo cultural, científico y tecnológico en el ámbito de sistemas computacionales.
 
-> **Nota:** Sistema de Asignación y Transferencia de Créditos Académicos (SATCA).
-
 ---
 
 ## Competencia a Desarrollar
@@ -79,11 +77,4 @@ Desarrollar software para establecer la interfaz hombre-máquina y máquina-máq
 4.4 Programación del puerto paralelo.  
 4.5 Programación híbrida.  
 4.6 Programación de puerto USB.  
-
----
-
-## Comentarios e Informes de Errores
-
-Esta es una herramienta fuera de línea. Sus datos permanecen localmente y no se envían a ningún servidor.
-
-Si tienes comentarios o encuentras algún error, por favor envíalos al equipo responsable.  
+ 

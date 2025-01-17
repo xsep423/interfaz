@@ -1,5 +1,4 @@
 
----
 
 ### Pasos para "Hello, World!" en ARM64
 

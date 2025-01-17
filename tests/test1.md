@@ -1,4 +1,5 @@
 
+![image](https://github.com/user-attachments/assets/d7778548-8170-45d9-9219-877b63f22569)
 
 ### Pasos para "Hello, World!" en ARM64
 
@@ -75,4 +76,5 @@ Verás la salida:
 ```
 Hello, World!
 ```
-lo! 😊
+
+NOTA: Elaborar el asciinema de esta actividad no olvide recuoerar el enlace, poner comentarios correctos y documentar su corrida con el templete tanto el código y el compartido de asciinema

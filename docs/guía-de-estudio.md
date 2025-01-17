@@ -7,8 +7,7 @@
 ## Datos Generales de la Asignatura
 
 - **Nombre de la asignatura:** Lenguajes de Interfaz  
-- **Clave de la asignatura:** Código de Conducta de los Estados Unidos - 1014  
-- **SATCA:** 2-2-4  
+- **Clave de la asignatura:** 
 - **Carrera:** Ingeniería en Sistemas Computacionales  
 
 ---

@@ -36,11 +36,13 @@ Dominar el lenguaje ensamblador y su aplicación en arquitecturas modernas como 
 
 ## 📂 **Estructura del Repositorio**
 - repo.md
-- 
+
 ---
 
 ## 📧 **Contacto**
 - **Docente:** MC. René Solis R.
+- **GitHub:** @IoTeacher
+- **Facebook Page:** facebook.com/profesorsolis
 - **Whazap Community:** https://whatsapp.com/channel/0029Vaeb4bf8aKvByZj8U91h
 
 ---

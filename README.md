@@ -35,16 +35,13 @@ Dominar el lenguaje ensamblador y su aplicación en arquitecturas modernas como 
 ---
 
 ## 📂 **Estructura del Repositorio**
-- **`/Resources`**: Guías, bibliografía y enlaces útiles.
-- **`/Exercises`**: Ejercicios organizados por arquitectura.
-- **`/Projects`**: Carpetas de proyectos finales.
-- **`/Class-Material`**: Diapositivas y ejemplos usados en clase.
-
+- repo.md
+- 
 ---
 
 ## 📧 **Contacto**
 - **Docente:** MC. René Solis R.
-- **WhazapCommunity:** https://whatsapp.com/channel/0029Vaeb4bf8aKvByZj8U91h
+- **Whazap Community:** https://whatsapp.com/channel/0029Vaeb4bf8aKvByZj8U91h
 
 ---
 

@@ -1,3 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Curso de Ensamblador - TecNM Tijuana</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f9;
+      color: #333;
+    }
+    header {
+      background: #003366;
+      color: #fff;
+      padding: 10px 15px;
+      text-align: center;
+    }
+    h1, h2, h3 {
+      color: #003366;
+    }
+    section {
+      padding: 15px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul li {
+      background: #e6e6fa;
+      margin: 5px 0;
+      padding: 10px;
+      border-left: 4px solid #003366;
+    }
+    footer {
+      text-align: center;
+      background: #003366;
+      color: #fff;
+      padding: 10px 0;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+    a {
+      color: #003366;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Curso de Ensamblador</h1>
+    <p><strong>TecNM - Campus Instituto Tecnológico de Tijuana</strong></p>
+  </header>
+
+  <section>
+    <h2>Introducción</h2>
+    <p>Este curso de <strong>Ensamblador</strong> tiene como objetivo preparar a los estudiantes en el diseño y optimización de software a nivel bajo, utilizando arquitecturas clave como <strong>ARM32</strong> y <strong>ARM64</strong>. Además, como parte de nuestra preparación integral, trabajaremos con la arquitectura emergente <strong>RISC-V32</strong>, un estándar abierto y de creciente importancia en el mercado tecnológico.</p>
+  </section>
+
+  <section>
+    <h2>¿Qué aprenderás en este curso?</h2>
+    <ul>
+      <li><strong>Fundamentos del Ensamblador:</strong> Estructura del lenguaje y uso de instrucciones básicas.</li>
+      <li><strong>ARM32 y ARM64:</strong> Programación en sistemas de 32 y 64 bits.</li>
+      <li><strong>RISC-V32:</strong> Un reto emocionante que explora el futuro de la arquitectura computacional.</li>
+      <li><strong>Optimización de Código:</strong> Técnicas avanzadas para mejorar el rendimiento de programas ensamblados.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Metodología</h2>
+    <p>Durante el curso, trabajaremos en:</p>
+    <ul>
+      <li><strong>Prácticas guiadas:</strong> Ejercicios para comprender la programación en ARM y RISC-V.</li>
+      <li><strong>Proyectos:</strong> Aplicaciones prácticas que integran conocimientos adquiridos.</li>
+      <li><strong>Retos:</strong> Soluciones innovadoras para problemas reales en arquitectura computacional.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Recursos del Curso</h2>
+    <ul>
+      <li><a href="https://developer.arm.com/">ARM Developer</a>: Documentación oficial y recursos de ARM.</li>
+      <li><a href="https://riscv.org/">RISC-V Foundation</a>: Información sobre la arquitectura RISC-V.</li>
+      <li>Ejemplos de código y prácticas, que estarán disponibles en el repositorio de GitHub.</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>Para más información, visita nuestro <a href="https://www.tijuana.tecnm.mx/">sitio web oficial</a>.</p>
+    <p>&copy; 2025 TecNM Campus Instituto Tecnológico de Tijuana</p>
+  </footer>
+</body>
+</html>
+
+---
+
 # Calendario Escolar Febrero - Junio 2025
 
 | Semana |   Fecha    |   Lunes    |   Martes   |   Miércoles   |   Jueves          |

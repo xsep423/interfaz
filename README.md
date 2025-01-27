@@ -43,8 +43,8 @@ Dominar el lenguaje ensamblador y su aplicación en arquitecturas modernas como 
 ---
 
 ## 📧 **Contacto**
-**Docente:** MC. René Solis R.
-**WhazapCommunity:** https://whatsapp.com/channel/0029Vaeb4bf8aKvByZj8U91h
+- **Docente:** MC. René Solis R.
+- **WhazapCommunity:** https://whatsapp.com/channel/0029Vaeb4bf8aKvByZj8U91h
 
 ---
 

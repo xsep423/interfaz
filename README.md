@@ -1,109 +1,50 @@
-```html
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Curso de Ensamblador - TecNM Tijuana</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      margin: 0;
-      padding: 0;
-      background-color: #f4f4f9;
-      color: #333;
-    }
-    header {
-      background: #003366;
-      color: #fff;
-      padding: 10px 15px;
-      text-align: center;
-    }
-    h1, h2, h3 {
-      color: #003366;
-    }
-    section {
-      padding: 15px;
-    }
-    ul {
-      list-style: none;
-      padding: 0;
-    }
-    ul li {
-      background: #e6e6fa;
-      margin: 5px 0;
-      padding: 10px;
-      border-left: 4px solid #003366;
-    }
-    footer {
-      text-align: center;
-      background: #003366;
-      color: #fff;
-      padding: 10px 0;
-      position: fixed;
-      bottom: 0;
-      width: 100%;
-    }
-    a {
-      color: #003366;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <h1>Curso de Ensamblador</h1>
-    <p><strong>TecNM - Campus Instituto Tecnológico de Tijuana</strong></p>
-  </header>
+# Curso de Ensamblador - TecNM Tijuana
 
-  <section>
-    <h2>Introducción</h2>
-    <p>Este curso de <strong>Ensamblador</strong> tiene como objetivo preparar a los estudiantes en el diseño y optimización de software a nivel bajo, utilizando arquitecturas clave como <strong>ARM32</strong> y <strong>ARM64</strong>. Además, como parte de nuestra preparación integral, trabajaremos con la arquitectura emergente <strong>RISC-V32</strong>, un estándar abierto y de creciente importancia en el mercado tecnológico.</p>
-  </section>
+Bienvenido al repositorio del curso **Ensamblador**, impartido en el TecNM - Campus Instituto Tecnológico de Tijuana. Este espacio está diseñado para proporcionar los recursos, ejercicios y proyectos necesarios para que los estudiantes desarrollen habilidades en programación de bajo nivel con arquitecturas avanzadas.
 
-  <section>
-    <h2>¿Qué aprenderás en este curso?</h2>
-    <ul>
-      <li><strong>Fundamentos del Ensamblador:</strong> Estructura del lenguaje y uso de instrucciones básicas.</li>
-      <li><strong>ARM32 y ARM64:</strong> Programación en sistemas de 32 y 64 bits.</li>
-      <li><strong>RISC-V32:</strong> Un reto emocionante que explora el futuro de la arquitectura computacional.</li>
-      <li><strong>Optimización de Código:</strong> Técnicas avanzadas para mejorar el rendimiento de programas ensamblados.</li>
-    </ul>
-  </section>
+---
 
-  <section>
-    <h2>Metodología</h2>
-    <p>Durante el curso, trabajaremos en:</p>
-    <ul>
-      <li><strong>Prácticas guiadas:</strong> Ejercicios para comprender la programación en ARM y RISC-V.</li>
-      <li><strong>Proyectos:</strong> Aplicaciones prácticas que integran conocimientos adquiridos.</li>
-      <li><strong>Retos:</strong> Soluciones innovadoras para problemas reales en arquitectura computacional.</li>
-    </ul>
-  </section>
+## 🌟 **Objetivo del Curso**
+Dominar el lenguaje ensamblador y su aplicación en arquitecturas modernas como **ARM32**, **ARM64**, y la emergente **RISC-V32**. Este curso busca preparar a los estudiantes con una visión integral y práctica, atendiendo las demandas tecnológicas actuales del mercado.
 
-  <section>
-    <h2>Recursos del Curso</h2>
-    <ul>
-      <li><a href="https://developer.arm.com/">ARM Developer</a>: Documentación oficial y recursos de ARM.</li>
-      <li><a href="https://riscv.org/">RISC-V Foundation</a>: Información sobre la arquitectura RISC-V.</li>
-      <li>Ejemplos de código y prácticas, que estarán disponibles en el repositorio de GitHub.</li>
-    </ul>
-  </section>
+---
 
-  <footer>
-    <p>Para más información, visita nuestro <a href="https://www.tijuana.tecnm.mx/">sitio web oficial</a>.</p>
-    <p>&copy; 2025 TecNM Campus Instituto Tecnológico de Tijuana</p>
-  </footer>
-</body>
-</html>
+## 📚 **Contenido del Repositorio**
+1. **Recursos de Aprendizaje:**
+   - Guías y tutoriales para comenzar con ARM y RISC-V.
+   - Documentación oficial y referencias técnicas.
+2. **Ejercicios Prácticos:**
+   - Programación en ensamblador para ARM32 y ARM64.
+   - Retos con instrucciones básicas de RISC-V32.
+3. **Proyectos de Curso:**
+   - Aplicaciones avanzadas utilizando microcontroladores con estas arquitecturas.
+4. **Material Adicional:**
+   - Presentaciones, ejemplos de código y optimizaciones.
 
+---
 
+## 🛠️ **Tecnologías y Arquitecturas**
+### ARM32 y ARM64
+- Dominaremos las instrucciones clave y el manejo de registros en sistemas ARM.
+- Aplicaciones prácticas: diseño de subrutinas, optimización de algoritmos y manejo de hardware.
 
-```
+### RISC-V32 (Reto del Curso)
+- Introducción a esta arquitectura emergente abierta y su importancia en la industria.
+- Resolución de problemas con instrucciones básicas y optimizaciones personalizadas.
+
+---
+
+## 📂 **Estructura del Repositorio**
+- **`/Resources`**: Guías, bibliografía y enlaces útiles.
+- **`/Exercises`**: Ejercicios organizados por arquitectura.
+- **`/Projects`**: Carpetas de proyectos finales.
+- **`/Class-Material`**: Diapositivas y ejemplos usados en clase.
+
+---
+
+## 📧 **Contacto**
+**Docente:** MC. René Solis R.
+**WhazapCommunity:** https://whatsapp.com/channel/0029Vaeb4bf8aKvByZj8U91h
 
 ---
 

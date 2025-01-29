@@ -1,4 +1,7 @@
 
+<img width="568" alt="Screenshot 2025-01-29 at 12 15 32 p m" src="https://github.com/user-attachments/assets/1c8e39c5-61cd-4c98-8b2c-36c94cbedd64" />
+
+
 # Reseña de AWS Academy para Estudiantes de Ingeniería en Sistemas
 
 Estimados estudiantes,

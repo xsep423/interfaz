@@ -21,3 +21,4 @@ Un **GTP** (Generative Text Prompt) es un enlace o conjunto de instrucciones que
 - **Explicaciones claras**: Conceptos complejos como la programación de sistemas de bajo nivel se pueden explicar de manera sencilla y detallada.
 - **Desarrollo autónomo**: Los estudiantes pueden experimentar y resolver problemas a su propio ritmo, mejorando su comprensión a través de la práctica.
 
+![Uploading Screenshot 2025-01-30 at 12.50.47 p.m..png…]()

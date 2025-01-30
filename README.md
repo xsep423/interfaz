@@ -1,9 +1,9 @@
 
 <img width="483" alt="Screenshot 2025-01-30 at 12 42 16 p m" src="https://github.com/user-attachments/assets/6fc58cbd-e94e-445e-b746-35faa323da43" />
 
-# Curso de Ensamblador - TecNM Tijuana
+# Curso de Lenguajes de Interfaz
 
-Bienvenido al repositorio del curso **Ensamblador**, impartido en el TecNM - Campus Instituto Tecnológico de Tijuana. Este espacio está diseñado para proporcionar los recursos, ejercicios y proyectos necesarios para que los estudiantes desarrollen habilidades en programación de bajo nivel con arquitecturas avanzadas.
+Bienvenido al repositorio del curso **Lenguajes de Interfaz**, impartido en el TecNM - Campus Instituto Tecnológico de Tijuana. Este espacio está diseñado para proporcionar los recursos, ejercicios y proyectos necesarios para que los estudiantes desarrollen habilidades en programación de bajo nivel con arquitecturas avanzadas.
 
 ---
 

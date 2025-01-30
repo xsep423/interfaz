@@ -1,3 +1,5 @@
+
+
 # Curso de Ensamblador - TecNM Tijuana
 
 Bienvenido al repositorio del curso **Ensamblador**, impartido en el TecNM - Campus Instituto Tecnológico de Tijuana. Este espacio está diseñado para proporcionar los recursos, ejercicios y proyectos necesarios para que los estudiantes desarrollen habilidades en programación de bajo nivel con arquitecturas avanzadas.

@@ -3,6 +3,7 @@ Lenguajes-de-Interfaz/
 │
 ├── README.md               # Descripción general del curso
 ├── Syllabus/               # Temario y cronograma del curso
+│   └── contribution.md     # Guía de contribuciones en markdown
 │   └── syllabus.pdf        # Archivo con el temario oficial
 │
 ├── Resources/              # Recursos de apoyo

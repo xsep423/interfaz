@@ -1,4 +1,5 @@
 
+![Rizzi](https://github.com/user-attachments/assets/8725e840-cdc4-498e-bfb2-0ecff49b4985)
 
 # Curso de Ensamblador - TecNM Tijuana
 

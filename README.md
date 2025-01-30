@@ -1,5 +1,5 @@
 
-![Rizzi](https://github.com/user-attachments/assets/8725e840-cdc4-498e-bfb2-0ecff49b4985)
+<img width="483" alt="Screenshot 2025-01-30 at 12 42 16 p m" src="https://github.com/user-attachments/assets/6fc58cbd-e94e-445e-b746-35faa323da43" />
 
 # Curso de Ensamblador - TecNM Tijuana
 

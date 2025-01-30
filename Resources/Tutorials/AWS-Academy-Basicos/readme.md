@@ -46,8 +46,3 @@ Espero que aprovechen esta oportunidad para enriquecer su formación académica 
 Saludos cordiales,  
 **MC. René Solis R.**  
 Docente de Ingeniería en Sistemas
-
-
-## Video Tutorial
-
-https://www.loom.com/share/4e971d5e893e4d72aa2652f5076ec0c6?sid=ef56c1b4-b895-4454-853d-426fac978cca

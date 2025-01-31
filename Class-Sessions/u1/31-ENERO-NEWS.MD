@@ -1,5 +1,7 @@
 ### 📄 **Resumen Técnico: Intel 2024 Q4 Financials**  
 
+FUENTE:  https://morethanmoore.substack.com/p/intel-2024-q4-financials?utm_campaign=email-post&r=2pqpyy&utm_source=substack&utm_medium=email
+
 Intel ha enfrentado un año turbulento en 2024, marcado por pérdidas significativas, una reestructuración profunda y la renuncia de su CEO Pat Gelsinger. Sin embargo, los resultados financieros del cuarto trimestre muestran signos de recuperación con ingresos de $14.3 mil millones, superando las proyecciones y mejorando márgenes brutos.  
 
 #### 🔑 **Puntos Clave (GAAP)**  

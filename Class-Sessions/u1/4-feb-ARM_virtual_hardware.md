@@ -91,6 +91,8 @@ Arm Virtual Hardware es una solución innovadora que permite a los desarrollador
 
 LINK: https://www.loom.com/share/55e1cd12cd3a4e21aa19460ac48da509?sid=986b1d4b-3e74-4c49-bf7f-e72a3fb362cb
 
+PROCEDIMIENTO: https://support.avh.corellium.com/getting-started/creating-your-first-device
+
 ### **Preguntas para Reflexión**
 1. ¿Cómo impacta Arm Virtual Hardware en el desarrollo de software para dispositivos embebidos?
 2. ¿Cuáles son las principales ventajas de usar un entorno de simulación en lugar de hardware físico?

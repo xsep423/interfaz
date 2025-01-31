@@ -86,7 +86,7 @@ Arm Virtual Hardware es una plataforma de simulación que permite ejecutar softw
 
 ---
 
-## **7. DEMOSTRACION **
+## **7. DEMOSTRACION**
 Arm Virtual Hardware es una solución innovadora que permite a los desarrolladores escribir, probar y optimizar software sin depender de hardware físico. Su integración con la nube y herramientas de desarrollo lo hace ideal para la industria del IoT, sistemas embebidos y aprendizaje automático.
 
 LINK: https://www.loom.com/share/55e1cd12cd3a4e21aa19460ac48da509?sid=986b1d4b-3e74-4c49-bf7f-e72a3fb362cb

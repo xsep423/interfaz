@@ -98,6 +98,14 @@ PROCEDIMIENTO: https://support.avh.corellium.com/getting-started/creating-your-f
 2. ¿Cuáles son las principales ventajas de usar un entorno de simulación en lugar de hardware físico?
 3. ¿Cómo podría integrarse AVH en una estrategia de desarrollo basada en DevOps?
 
+# EVALUACION IDOCEO
+
+<img width="589" alt="Rubrica de trabajo de investigacion y demostrativo" src="https://github.com/user-attachments/assets/73c333dc-dcc2-407c-ab39-1070f00b7143" />
+
+
+
+
+
 ### **Recursos Adicionales**
 - [Sitio Oficial de Arm Virtual Hardware](https://www.arm.com)
 - [AWS Marketplace - Arm Virtual Hardware](https://aws.amazon.com/marketplace)

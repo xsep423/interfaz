@@ -51,7 +51,7 @@ Dominar el lenguaje ensamblador y su aplicación en arquitecturas modernas como 
 ---
 
 ### Distribución de Unidades
-- **Unidad 1:** 27 Enero - 13 Febrero (Examen: 13 Febrero).  
+- **Unidad 1:** 27 Enero - 13 Febrero (Examen: 20 Febrero) * cambio.  
 - **Unidad 2:** 17 Febrero - 6 Marzo (Examen: 6 Marzo).  
 - **Unidad 3:** 10 Marzo - 27 Marzo (Examen: 27 Marzo).  
 - **Unidad 4:** 31 Marzo - 8 Mayo (Examen: 8 Mayo).  

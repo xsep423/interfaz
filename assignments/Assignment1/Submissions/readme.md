@@ -4,7 +4,22 @@
 Una explicación paso a paso para crear un programa en ensamblador ARM64 que captura el nombre de un estudiante, lo muestra en pantalla y calcula la cantidad de caracteres que contiene. 
 
 ---
+```mermaid
+flowchart TD
+    A[Inicio] --> B[Mostrar mensaje "Ingrese su nombre"]
+    B --> C[Leer nombre del usuario]
+    C --> D[Inicializar contador a 0]
+    D --> E{¿Caracter actual es \\n o \\0?}
+    E -- Sí --> F[Finalizar conteo]
+    E -- No --> G[Incrementar contador]
+    G --> H[Avanzar al siguiente caracter]
+    H --> E
+    F --> I[Mostrar mensaje con nombre y cantidad de caracteres]
+    I --> J[Finalizar programa]
+```
 
+
+---
 ### Explicación:
 
 1. **Definir secciones de datos**:
@@ -102,8 +117,6 @@ end_count:
     svc #0
 ```
 
-Este comentario muestra una versión equivalente en C#, lo que puede ayudar a entender la lógica del programa en un lenguaje más familiar. ¿Hay algo más que quisieras añadir o ajustar? 😊
-```
 
 ---
 

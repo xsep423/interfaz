@@ -43,10 +43,8 @@ flowchart TD
 
 ### Código ARM64:
 
-```assembly
-Aquí tienes el código con el encabezado y un comentario que muestra cómo sería este programa en C#:
-
 ```asm
+
 /***********************************************************************
  * Autor: Rene Solis
  * Programa: Contador de caracteres de un nombre ingresado
@@ -117,7 +115,6 @@ end_count:
     mov x0, 0                  // Código de salida
     svc #0
 ```
-
 
 ---
 

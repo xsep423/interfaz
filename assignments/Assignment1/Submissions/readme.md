@@ -28,6 +28,31 @@ Una explicación paso a paso para crear un programa en ensamblador ARM64 que cap
 ### Código ARM64:
 
 ```assembly
+Aquí tienes el código con el encabezado y un comentario que muestra cómo sería este programa en C#:
+
+```asm
+/***********************************************************************
+ * Autor: Rene Solis
+ * Programa: Contador de caracteres de un nombre ingresado
+ * Descripción: Este programa solicita al usuario que ingrese su nombre,
+ *              cuenta el número de caracteres y muestra el resultado.
+ * Fecha: 09 de Febrero de 2025
+ * Plataforma: ARM64 Assembly en Raspberry Pi OS
+ *
+ * Versión en C#:
+ * using System;
+ * class Program
+ * {
+ *     static void Main(string[] args)
+ *     {
+ *         Console.Write("Ingrese su nombre: ");
+ *         string nombre = Console.ReadLine();
+ *         int longitud = nombre.Length;
+ *         Console.WriteLine($"Su nombre es: {nombre} y tiene {longitud} caracteres");
+ *     }
+ * }
+ ***********************************************************************/
+
 .section .data
     prompt:     .asciz "Ingrese su nombre: \n"
     result:     .asciz "Su nombre es: %s y tiene %d caracteres\n"
@@ -75,6 +100,9 @@ end_count:
     mov x8, 93                 // syscall exit
     mov x0, 0                  // Código de salida
     svc #0
+```
+
+Este comentario muestra una versión equivalente en C#, lo que puede ayudar a entender la lógica del programa en un lenguaje más familiar. ¿Hay algo más que quisieras añadir o ajustar? 😊
 ```
 
 ---

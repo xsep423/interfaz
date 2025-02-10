@@ -6,16 +6,17 @@ Una explicación paso a paso para crear un programa en ensamblador ARM64 que cap
 ---
 ```mermaid
 flowchart TD
-    A[Inicio] --> B[Mostrar mensaje "Ingrese su nombre"]
+    A[Inicio] --> B[Mostrar mensaje 'Ingrese su nombre']
     B --> C[Leer nombre del usuario]
     C --> D[Inicializar contador a 0]
-    D --> E{¿Caracter actual es \\n o \\0?}
+    D --> E{¿Caracter actual es \n o \0?}
     E -- Sí --> F[Finalizar conteo]
     E -- No --> G[Incrementar contador]
     G --> H[Avanzar al siguiente caracter]
     H --> E
     F --> I[Mostrar mensaje con nombre y cantidad de caracteres]
     I --> J[Finalizar programa]
+
 ```
 
 

@@ -78,7 +78,7 @@ El estudiante será capaz de crear una instancia EC2 en AWS Academy, conectarse 
 
 # Loom básico solo el inicio, faltan cerrar el asciinema y modificarlo con markdown
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/a17c62a481c5410787246a11840a6aad?sid=1f1252dd-7da3-47ab-acf2-c20f2f4e54bc" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+https://www.loom.com/embed/a17c62a481c5410787246a11840a6aad?sid=1f1252dd-7da3-47ab-acf2-c20f2f4e54bc
 
 
 

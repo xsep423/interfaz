@@ -4,7 +4,7 @@
 
 ### 0. **GTP de Ensamblador para TECNM**
 - **Descripción:** Precarga de 8 libros del curso y chatea con los ebooks.  
-- **Acceso:** [GTP para el curso]().  
+- **Acceso:** [[GTP para el curso](). ](https://chatgpt.com/g/g-ikW4IppBT-arm64-assembly-tutor-for-raspbianos-linux) 
 - **Créditos:** Rene Solis.  
 
 ### 1. **ARM Virtual Hardware**

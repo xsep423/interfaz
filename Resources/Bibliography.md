@@ -2,9 +2,14 @@
 
 ## Recursos Educativos para ARM y AWS
 
+### 0. **GTP de Ensamblador para TECNM**
+- **Descripción:** Precarga de 8 libros del curso y chatea con los ebooks.  
+- **Acceso:** [GTP para el curso]().  
+- **Créditos:** Rene Solis.  
+
 ### 1. **ARM Virtual Hardware**
 - **Descripción:** Plataforma para trabajar con hardware virtual de ARM.  
-- **Acceso:** [ARM Virtual Hardware](https://app.avh.corellium.com/login).  
+- **Acceso:** [GTP ARM Assembly TECNM](https://chatgpt.com/g/g-ikW4IppBT-arm64-assembly-tutor-for-raspbianos-linux) 
 - **Créditos:** Por tiempo de uso.  
 
 ---

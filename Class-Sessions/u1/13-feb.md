@@ -10,6 +10,10 @@
 
 ## Detectamos algunos duplicados en el momento y se dio la atención para condicionarlo.
 
+# Lista Nicknames
 ---
+3 PM https://classroom.github.com/a/b2KwgqWB
+---
+4PM https://classroom.github.com/a/EJkt0YwP
 
 ![Screenshot 2025-02-09 at 2 28 11 p m](https://github.com/user-attachments/assets/46974cff-44df-47d2-a284-a9f00eaf0262)

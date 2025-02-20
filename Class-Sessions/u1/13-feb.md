@@ -10,12 +10,23 @@
 ---
 GitHub Classroom es una herramienta muy útil para los docentes que buscan gestionar, evaluar y colaborar en proyectos de programación con sus estudiantes. Su importancia radica en varios aspectos clave:
 
-Automatización y eficiencia: GitHub Classroom permite a los maestros crear repositorios automáticamente para cada estudiante o equipo, simplificando la creación y distribución de tareas. Esto reduce el tiempo que los docentes dedican a crear y organizar repositorios manualmente.
-Control de versiones: Al integrar GitHub, los estudiantes pueden utilizar el control de versiones de Git. Esto les permite gestionar su código de manera eficiente, realizar seguimientos de cambios, y revertir a versiones anteriores si es necesario, lo que favorece la transparencia y la revisión del trabajo.
-Colaboración: Los estudiantes pueden trabajar en proyectos de forma colaborativa en equipos, utilizando las funcionalidades de GitHub para hacer commits, revisar pull requests y discutir el código. Esto promueve el trabajo en equipo y la revisión de código entre compañeros.
-Evaluación y retroalimentación: Los docentes pueden revisar el progreso de los estudiantes en tiempo real. Además, se pueden realizar comentarios directamente sobre el código, lo que facilita la retroalimentación constructiva y específica para mejorar el trabajo de los estudiantes.
-Integración con herramientas externas: GitHub Classroom se puede integrar con herramientas de CI/CD (Integración continua/Despliegue continuo), lo que permite realizar pruebas automáticas de código y entregar retroalimentación instantánea. Esto es muy útil para proyectos de programación, ya que asegura que los estudiantes estén trabajando de acuerdo con los estándares técnicos.
-Accesibilidad y facilidad de uso: GitHub es una plataforma muy popular en la industria del software, por lo que familiarizar a los estudiantes con ella les proporciona habilidades prácticas que pueden utilizar en su futura carrera profesional. Además, GitHub Classroom es accesible a través de una interfaz amigable y bien documentada.
+### 1. Automatización y eficiencia
+GitHub Classroom permite a los maestros crear repositorios automáticamente para cada estudiante o equipo, simplificando la creación y distribución de tareas. Esto reduce el tiempo que los docentes dedican a crear y organizar repositorios manualmente.
+
+### 2. Control de versiones
+Al integrar GitHub, los estudiantes pueden utilizar el control de versiones de Git. Esto les permite gestionar su código de manera eficiente, realizar seguimientos de cambios, y revertir a versiones anteriores si es necesario, lo que favorece la transparencia y la revisión del trabajo.
+
+### 3. Colaboración
+Los estudiantes pueden trabajar en proyectos de forma colaborativa en equipos, utilizando las funcionalidades de GitHub para hacer commits, revisar pull requests y discutir el código. Esto promueve el trabajo en equipo y la revisión de código entre compañeros.
+
+### 4. Evaluación y retroalimentación
+Los docentes pueden revisar el progreso de los estudiantes en tiempo real. Además, se pueden realizar comentarios directamente sobre el código, lo que facilita la retroalimentación constructiva y específica para mejorar el trabajo de los estudiantes.
+
+### 5. Integración con herramientas externas
+GitHub Classroom se puede integrar con herramientas de CI/CD (Integración continua/Despliegue continuo), lo que permite realizar pruebas automáticas de código y entregar retroalimentación instantánea. Esto es muy útil para proyectos de programación, ya que asegura que los estudiantes estén trabajando de acuerdo con los estándares técnicos.
+
+### 6. Accesibilidad y facilidad de uso
+GitHub es una plataforma muy popular en la industria del software, por lo que familiarizar a los estudiantes con ella les proporciona habilidades prácticas que pueden utilizar en su futura carrera profesional. Además, GitHub Classroom es accesible a través de una interfaz amigable y bien documentada.
 
 ---
 

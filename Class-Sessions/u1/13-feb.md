@@ -1,7 +1,7 @@
 
 ![Screenshot 2025-02-09 at 5 35 58 p m](https://github.com/user-attachments/assets/ac74f042-534c-4e74-985f-ce1a8e6e610f)
 
-![Uploading Screenshot 2025-02-19 at 4.23.07 p.m..png…]( )
+<img width="1249" alt="Screenshot 2025-02-19 at 4 23 07 p m" src="https://github.com/user-attachments/assets/a9adcf0f-14a3-4287-811b-10a2a7cf533b" />
 
 
 # Trabajo de Exposición de temas selectos del curso 

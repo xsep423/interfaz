@@ -4,7 +4,7 @@
 
 # Trabajo de Exposición de temas selectos del curso 
 
-## Se dividen en filas los equipos (3pm) y el 7 equipos (4pm) para efecto de participaciòn
+## Se dividen en filas los 8 equipos (3pm) y en equipos de 7 los de (4pm) para efecto de participaciòn
 
 ## Declarativa en http://classroom.github.com para asociar a los equipos, se hizo una demostración como se crean los grupos y como asociarse.
 

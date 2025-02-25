@@ -1,4 +1,13 @@
+
+<img width="1243" alt="Screenshot 2025-02-24 at 4 35 43 p m" src="https://github.com/user-attachments/assets/bfbba23d-e3b6-41ba-87f5-72d28797e1da" />
+
 Introducción al Computador de 8 bits y al Ensamblador
+
+
+ # Enlace al Emulador
+
+   https://cpu.visualrealmsoftware.com/emu/
+
 
 1. ¿Qué es un computador de 8 bits?
 
@@ -51,10 +60,6 @@ El emulador que se encuentra en Troy’s Breadboard Computer permite experimenta
     Experimentación:
     La práctica es fundamental: modifica ejemplos existentes, prueba nuevas instrucciones y observa los resultados para comprender mejor el funcionamiento interno.
 
-
-   # Enlace al Emulador
-
-   https://cpu.visualrealmsoftware.com/emu/
 
 
 # COMPROMISO PROGRAMAS PARA 4PM

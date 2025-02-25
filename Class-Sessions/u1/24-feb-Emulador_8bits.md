@@ -171,10 +171,11 @@ Simulación de Hardware:
   3. Demostración en la computadora de 8 bits o en el emulador.
  
 # DEPOSITO SERA VIA **Contribucion**
-´´´bash
+```bash
 Directorio http://github.com/tectijuana/Class-Sessions/U1/8bitASM/_____nombre programa____/readme.md
-´´´
+```
 Ejemplo de uso FORK: https://www.loom.com/share/6835069706494761a6828d4c3b053a21?sid=4f221c0a-8dae-450f-8ab0-6b3bc56db653
+
 Ejemplo contrib: https://www.loom.com/share/8f26a0e6203d4be68ce65b07c5b5a077?sid=daae4789-0ebb-42c4-a0a8-987e8aeacb1f
 
 

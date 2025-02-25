@@ -1,5 +1,5 @@
+<img width="1308" alt="Screenshot 2025-02-24 at 4 37 55 p m" src="https://github.com/user-attachments/assets/51656170-3a5f-4015-a15f-a31547303fe4" />
 
-<img width="1243" alt="Screenshot 2025-02-24 at 4 35 43 p m" src="https://github.com/user-attachments/assets/bfbba23d-e3b6-41ba-87f5-72d28797e1da" />
 
 Introducción al Computador de 8 bits y al Ensamblador
 

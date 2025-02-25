@@ -9,7 +9,6 @@ Introducción al Computador de 8 bits y al Ensamblador
    Emulador: https://cpu.visualrealmsoftware.com/emu/ 
    
    Repo del proyecto: https://github.com/visrealm/vrcpu
-
 # Introducción a los Computadores de 8 Bits y el Ensamblador  
 
 ## ¿Qué es un Computador de 8 Bits?  
@@ -68,7 +67,48 @@ Permite observar en tiempo real el estado de los registros, la memoria y las ope
 🔹 **Ejemplos y Documentación:**  
 Incluye documentación y ejemplos de código en ensamblador, lo cual es muy útil para aprender la **sintaxis** y la **semántica** del lenguaje.  
 
-🔹 **Simulación de Ha
+🔹 **Simulación de Hardware:**  
+Al emular un computador de 8 bits, se puede experimentar con aspectos prácticos como:  
+✅ Carga de instrucciones.  
+✅ Ejecución de ciclos de reloj.  
+✅ Interacción con dispositivos de entrada/salida.  
+
+---
+
+## **Conceptos Básicos que se Abordarán en el Curso**  
+
+🔹 **Registros y Memoria:**  
+Cómo se utilizan los registros para almacenar datos temporales y cómo se direcciona la memoria.  
+
+🔹 **Instrucciones Básicas:**  
+Aprenderás a utilizar instrucciones **aritméticas, lógicas, de salto y de control de flujo**.  
+
+🔹 **Depuración y Análisis de Código:**  
+El emulador permite la depuración visual del código, facilitando:  
+✔️ Pausar la ejecución.  
+✔️ Examinar el contenido de la memoria.  
+✔️ Rastrear el comportamiento del programa.  
+
+🔹 **Optimización y Eficiencia:**  
+Dado que los sistemas de 8 bits tienen **recursos limitados**, es fundamental escribir código optimizado que aproveche **cada ciclo de reloj**.  
+
+---
+
+## **Primeros Pasos en el Emulador**  
+
+🟢 **1. Carga del Código:**  
+Puedes introducir tus programas en ensamblador en el editor del emulador y observar cómo se cargan en la memoria.  
+
+🟢 **2. Ejecución Paso a Paso:**  
+Utiliza la opción de **ejecución paso a paso** para ver cómo cada instrucción modifica el estado del sistema.  
+
+🟢 **3. Experimentación:**  
+La práctica es clave:  
+✔️ Modifica ejemplos existentes.  
+✔️ Prueba nuevas instrucciones.  
+✔️ Observa los resultados para entender mejor el funcionamiento interno.  
+
+🚀 ¡Listo para aprender ensamblador en la Ben Eater 8-bit Computer!  
 
 
 # COMPROMISO PROGRAMAS PARA 3PM

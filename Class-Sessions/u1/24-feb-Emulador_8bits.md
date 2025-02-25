@@ -10,67 +10,65 @@ Introducción al Computador de 8 bits y al Ensamblador
    
    Repo del proyecto: https://github.com/visrealm/vrcpu
 
+# Introducción a los Computadores de 8 Bits y el Ensamblador  
 
-1. ¿Qué es un computador de 8 bits?
+## ¿Qué es un Computador de 8 Bits?  
 
-Los computadores de 8 bits fueron muy populares en la década de 1980, en gran parte por su simplicidad y por ser la plataforma de entrada para muchos programadores. Estos sistemas operan con datos de 8 bits a la vez y permiten comprender los fundamentos del procesamiento, la manipulación de datos y la arquitectura de la computadora.
+Los computadores de 8 bits fueron muy populares en la década de 1980, en gran parte por su simplicidad y por ser la plataforma de entrada para muchos programadores. Estos sistemas operan con datos de **8 bits** a la vez y permiten comprender los fundamentos del procesamiento, la manipulación de datos y la arquitectura de la computadora.
 
-Arquitectura Básica:
-- La arquitectura de un sistema 8 bits suele incluir un conjunto limitado de registros, una memoria de acceso aleatorio (RAM) pequeña y dispositivos de entrada/salida simples.
-- Aplicación en la Enseñanza:
-- Debido a su simplicidad, se utilizan para aprender conceptos de programación a bajo nivel, como la manipulación de registros, direcciones de memoria y control de flujo a nivel de máquina.
+### **Arquitectura Básica**  
+- **CPU:** Procesador con instrucciones básicas y operaciones en 8 bits.  
+- **Registros:** Un conjunto limitado de registros internos para almacenamiento temporal.  
+- **Memoria RAM:** Pequeña capacidad de almacenamiento para datos y programas.  
+- **Dispositivos de Entrada/Salida:** Generalmente, LEDs, displays de 7 segmentos y switches DIP.  
 
-Hardware de la Ben Eater 8-bit Computer
+### **Aplicación en la Enseñanza**  
+Debido a su simplicidad, los sistemas de 8 bits se utilizan para aprender conceptos de programación a bajo nivel, tales como:  
+✅ Manipulación de registros.  
+✅ Dirección y acceso a memoria.  
+✅ Control de flujo a nivel de máquina.  
 
-- CPU de 8 bits: ALU básica con operaciones suma, resta y lógicas.
-- Registros: 4 registros de propósito general (A, B, C, D).
-- Memoria: ROM y RAM limitada (generalmente 16 bytes de RAM en la implementación básica).
-- Entrada/Salida: No tiene teclado, se usa DIP switches para entrada y display de 7 segmentos o LEDs para salida.
-- Control de flujo: Saltos condicionales limitados.
-  
-2. ¿Qué es el lenguaje ensamblador?
+---
 
-El lenguaje ensamblador es una representación simbólica del código máquina, lo que permite escribir instrucciones comprensibles para el programador. Cada instrucción en ensamblador se traduce directamente en una operación que el procesador puede ejecutar.
+## **Hardware de la Ben Eater 8-bit Computer**  
 
-Ventajas:
-- Permite un control muy preciso del hardware.
-- Favorece la optimización y el entendimiento profundo de cómo se ejecuta el código.
-Desventajas:
-- Es más laborioso y propenso a errores en comparación con lenguajes de alto nivel.
-- La portabilidad es limitada.
+| **Componente** | **Descripción** |
+|--------------|----------------|
+| **CPU** | ALU básica con operaciones de suma, resta y lógicas. |
+| **Registros** | 4 registros de propósito general (**A, B, C, D**). |
+| **Memoria** | ROM y RAM limitada (generalmente **16 bytes** en la implementación básica). |
+| **Entrada/Salida** | No tiene teclado; usa **DIP switches** como entrada y **LEDs/display de 7 segmentos** como salida. |
+| **Control de Flujo** | Soporta **saltos condicionales básicos** y manejo manual del flujo del programa. |
 
-3. Uso del Emulador “Troy’s Breadboard Computer”
+---
 
-El emulador que se encuentra en Troy’s Breadboard Computer permite experimentar de forma interactiva con un computador de 8 bits. Algunas de sus características clave son:
+## **¿Qué es el Lenguaje Ensamblador?**  
 
-Interfaz Visual:
-- Permite observar en tiempo real el estado de los registros, la memoria y las operaciones que se están ejecutando, lo que facilita el seguimiento del flujo de un programa en ensamblador.
-- Ejemplos y Documentación:
-- Se incluye documentación y ejemplos de código en ensamblador, lo cual es muy útil para comenzar a aprender la sintaxis y la semántica del lenguaje.
-  
-Simulación de Hardware:
-- Al emular el hardware de un computador de 8 bits, se puede experimentar con aspectos prácticos como la carga de instrucciones, la ejecución de ciclos de reloj y la interacción con dispositivos de entrada/salida.
+El **lenguaje ensamblador** es una representación simbólica del código máquina, lo que permite escribir instrucciones comprensibles para el programador. Cada instrucción se traduce directamente a operaciones que el procesador puede ejecutar.
 
-4. Conceptos Básicos que se Abordarán en el Curso
+### **Ventajas**  
+✔️ Permite un control **preciso** del hardware.  
+✔️ Facilita la **optimización** y el entendimiento del funcionamiento del procesador.  
 
-    Registros y Memoria:
-    Cómo se utilizan los registros para almacenar datos temporales y cómo se direcciona la memoria.
-    Instrucciones Básicas:
-    Aprenderás a utilizar instrucciones aritméticas, lógicas, de salto y de control de flujo.
-    Depuración y Análisis de Código:
-    El emulador facilita la depuración visual del código, permitiendo detener la ejecución, examinar el contenido de la memoria y rastrear el comportamiento del programa.
-    Optimización y Eficiencia:
-    Al trabajar con recursos limitados (como en un sistema de 8 bits), es fundamental escribir código optimizado que aproveche al máximo cada ciclo de reloj.
+### **Desventajas**  
+❌ Es más laborioso y propenso a errores comparado con lenguajes de alto nivel.  
+❌ **Portabilidad limitada**, ya que el código depende del hardware específico.  
 
-5. Primeros Pasos en el Emulador
+---
 
-    Carga del Código:
-    Puedes introducir tus programas en lenguaje ensamblador en el editor del emulador y observar cómo se cargan en la memoria.
-    Ejecución Paso a Paso:
-    Utiliza la opción de ejecución paso a paso para ver cómo cada instrucción modifica el estado del sistema.
-    Experimentación:
-    La práctica es fundamental: modifica ejemplos existentes, prueba nuevas instrucciones y observa los resultados para comprender mejor el funcionamiento interno.
+## **Uso del Emulador “Troy’s Breadboard Computer”**  
 
+El emulador de [Troy’s Breadboard Computer](https://cpu.visualrealmsoftware.com/emu/) permite experimentar de forma interactiva con un **computador de 8 bits**, simulando hardware real.  
+
+### **Características Clave**  
+
+🔹 **Interfaz Visual:**  
+Permite observar en tiempo real el estado de los registros, la memoria y las operaciones que se están ejecutando, facilitando el seguimiento del flujo de un programa en ensamblador.  
+
+🔹 **Ejemplos y Documentación:**  
+Incluye documentación y ejemplos de código en ensamblador, lo cual es muy útil para aprender la **sintaxis** y la **semántica** del lenguaje.  
+
+🔹 **Simulación de Ha
 
 
 # COMPROMISO PROGRAMAS PARA 3PM

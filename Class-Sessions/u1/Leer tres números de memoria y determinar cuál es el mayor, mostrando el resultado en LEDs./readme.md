@@ -1,5 +1,4 @@
-Me llamo Daniel Romero Bravo No.Control 22211650 y este es mi codigo.
-    
+# CÓDIGO FUENTE DOCUMENTADO
     ; Cargar los tres números en registros
     mva #43  ; Primer número en Ra
     mvb #23  ; Segundo número en Rb
@@ -19,6 +18,16 @@ Me llamo Daniel Romero Bravo No.Control 22211650 y este es mi codigo.
     FIN:
         mov Rd, Ra  ; Mostrar el número mayor en el display
         hlt         ; Finalizar el programa
+
+# LOGICA Y FUNCIONAMIENTO
+El algoritmo sigue una serie de comparaciones secuenciales para encontrar el valor más alto entre tres números cargados en los registros Ra, Rb y Rc.
+- Se cargan tres números en los registros Ra, Rb y Rc.
+- Se compara Ra con Rb. Si Rb es mayor, su valor se mueve a Ra.
+-Luego, Ra se compara con Rc. Si Rc es mayor, su valor se mueve a Ra.
+- Finalmente, el valor de Ra (el número mayor) se copia en Rd para mostrarlo en el display.
+
+# DEMOSTRACIÓN
+
 ![image](https://github.com/user-attachments/assets/15e820dd-b340-4ccf-87ab-b343001ea5b0)
 
 ![image](https://github.com/user-attachments/assets/f7b4831e-f80d-4154-bdd7-211bc5e58d83)

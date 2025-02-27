@@ -5,6 +5,8 @@
 
 **Carrera:** Sistemas computacionales
 
+**Grupo:** SC6C
+
 **Materia:** Lenguajes de interfaz SCC-1014
 
 **Titulo:** Ordenamiento de 3 numeros con metodo burbuja

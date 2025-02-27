@@ -34,7 +34,7 @@ lod Rc, NUM3     ; Cargar el tercer número en Rc
 
 .bubble_sort:
 ; Variable para verificar si hubo un intercambio
-clr Rd           ; Establecer Rd a cero, se usará para detectar si hubo intercambio
+clr Rd           ; Establecer Rd a cero, detectara intercambio
 
 ; Comparar Ra y Rb
 cmp Ra, Rb       ; Comparar Ra con Rb
@@ -57,9 +57,9 @@ mov Ra, Rb       ; Intercambiar Ra con Rb
 mov Rb, Rd       ; Copiar el valor de Rd en Rb
 
 ; Si no hubo intercambio, salir del ciclo
-lod Rd, Ra       ; Cargar Ra en Rd (para verificar si hubo cambio)
+lod Rd, Ra       ; Cargar Ra en Rd para ver si cambio
 cmp Rd, Rb       ; Comparar Rd y Rb
-jz .end_sort     ; Si Rd es igual a Rb, no hubo intercambio, terminar el ciclo
+jz .end_sort     ; Si Rd es igual a Rb, si no hubo intercambio termina el ciclo
 
 ; Repetir hasta que los números estén ordenados
 jmp .bubble_sort

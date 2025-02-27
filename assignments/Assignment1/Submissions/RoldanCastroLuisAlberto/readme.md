@@ -17,9 +17,9 @@
   Rene Solis Reyes
 
 
-##Codigo de ensamblador
+## Codigo de ensamblador
 
-###Ordenamiento de 3 numeros metodo burbuja
+### Ordenamiento de 3 numeros metodo burbuja
 
 ```assembly
 ; Definir las direcciones de memoria donde están almacenados los números

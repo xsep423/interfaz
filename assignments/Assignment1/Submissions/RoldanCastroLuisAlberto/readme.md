@@ -1,13 +1,11 @@
-![Alt text](./Assets/banner.png)
 # TECNOLÓGICO NACIONAL DE MÉXICO INSTITUTO TECNOLÓGICO DE TIJUANA
 ## Subdirección académica departamento de sistemas y computación
 
 **Semestre:** Enero - Junio
-![Alt text](./Assets/sistemas.png)
 
 **Carrera:** Sistemas computacionales
 **Materia:** Lenguajes de interfaz SCC-1014
-**Titulo:** Introduccion en Markdown
+**Titulo:** Ordenamiento de 3 numeros con metodo burbuja
  
 **Unidad:** 1
 **Equipo:** 6
@@ -23,7 +21,7 @@
 
 ###Ordenamiento de 3 numeros metodo burbuja
 
-´´´ asm
+```assembly
 ; Definir las direcciones de memoria donde están almacenados los números
 NUM1 = 0x10      ; Dirección del primer número
 NUM2 = 0x11      ; Dirección del segundo número
@@ -78,5 +76,5 @@ lcd Rb           ; Mostrar el valor de Rb (segundo más pequeño) en la LCD
 lcd Rc           ; Mostrar el valor de Rc (más grande) en la LCD
 
 hlt              ; Terminar la ejecución
-´´´
+```
 

@@ -8,7 +8,6 @@
 **Titulo:** Ordenamiento de 3 numeros con metodo burbuja
  
 **Unidad:** 1
-**Equipo:** 6
 
 **Alumno:** 
  - Roldan Castro Luis Alberto

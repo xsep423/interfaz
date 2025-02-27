@@ -210,7 +210,7 @@ La práctica es clave:
  
 # DEPOSITO SERA VIA **Contribucion**
 ```bash
-Directorio http://github.com/tectijuana/Class-Sessions/U1/8bitASM/_____nombre programa____/readme.md
+Directorio http://github.com/tectijuana/Class-Sessions/u1/8bitASM/_____nombre programa____/readme.md
 ```
 Ejemplo de uso FORK: https://www.loom.com/share/6835069706494761a6828d4c3b053a21?sid=4f221c0a-8dae-450f-8ab0-6b3bc56db653
 

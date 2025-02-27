@@ -4,7 +4,9 @@
 **Semestre:** Enero - Junio
 
 **Carrera:** Sistemas computacionales
+
 **Materia:** Lenguajes de interfaz SCC-1014
+
 **Titulo:** Ordenamiento de 3 numeros con metodo burbuja
  
 **Unidad:** 1

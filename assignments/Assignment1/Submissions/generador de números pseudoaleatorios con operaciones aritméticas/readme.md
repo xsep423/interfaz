@@ -187,7 +187,5 @@ El algoritmo es **pseudoaleatorio** porque, aunque parece generar números al az
 ## Conclusión
 Este programa es un ejemplo simple de cómo se pueden generar números pseudoaleatorios con operaciones aritméticas. Aunque no es adecuado para criptografía o aplicaciones de alta seguridad, sí sirve para simulaciones o pruebas básicas.
 
-## Conclusión
-Este programa es un ejemplo simple de cómo se pueden generar números pseudoaleatorios con operaciones aritméticas. Aunque no es adecuado para criptografía o aplicaciones de alta seguridad, sí sirve para simulaciones o pruebas básicas.
 
 

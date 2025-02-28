@@ -17,7 +17,7 @@
 
 
 .delay:
-    mov Rc, 3       ; Cargar el valor en Rc para establecer el tiempo del intervalo
+    mov Rc, 0x10       ; Cargar el valor en Rc para establecer el tiempo del intervalo
 .delay_loop:
     dec Rc            ; Decrementar registro c
     jnz .delay_loop   ; Si Rc no es cero, repetir el bucle
@@ -39,7 +39,7 @@ es el de estar en un bucle para decrementarlo hasta que llegue a 0 y una vez ter
 ### Imágenes
 
 
-![Imagen1](https://github.com/user-attachments/assets/7695d0a4-ae61-4142-9bbb-24f6a9494719)
+![image](https://github.com/user-attachments/assets/65a2a201-0e3d-4dc0-b9e2-d78f922e074f)
 
 
 ![Imagen2](https://github.com/user-attachments/assets/1468c7ee-a433-43f2-b85d-aa414e8a5d4c)

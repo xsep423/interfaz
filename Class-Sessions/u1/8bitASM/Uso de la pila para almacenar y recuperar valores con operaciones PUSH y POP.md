@@ -1,5 +1,18 @@
 
 # Uso de la pila para almacenar y recuperar valores con operaciones PUSH y POP.
+
+### ¿Qué es una pila?
+
+Una pila es una estructura de datos la cual ordena los datos mediante LIFO, primer dato en entrar es el ultimo en salir. 
+
+
+> Explicacion del Programa
+>
+> Introducimos 3 valores en un registro, en este caso en Ra,luego los empujamos dentro de la pila con "**PUSHP**" y con "**POP**" los recuperamos de la pila.
+>
+
+
+
 [**Opcion #1**](https://cpu.visualrealmsoftware.com/emu/?h=37070ab00732b0071eb05e0000005e0000005e0000002f00&s=)
 ```.asm 
 
@@ -29,7 +42,7 @@ jmp .pila;
 
 ```
 
-[**Opcion 2**]((https://cpu.visualrealmsoftware.com/emu/?h=37b70ab732b71e5e00000000005e00000000005e00000000002f00&s=))
+[**Opcion 2**](https://cpu.visualrealmsoftware.com/emu/?h=37b70ab732b71e5e00000000005e00000000005e00000000002f00&s=)
 ```.asm
 .pila: 
     clra

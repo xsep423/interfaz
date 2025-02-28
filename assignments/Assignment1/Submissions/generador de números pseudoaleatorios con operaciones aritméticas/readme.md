@@ -8,6 +8,7 @@ section .data
     c dd 1013904223
     m dd 4294967296
     newline db 10, 0
+    count dd 20  ; Número de iteraciones
 
 section .bss
     num resb 10
@@ -17,11 +18,16 @@ section .text
     extern printf
 
 _start:
+    mov ecx, [count]  ; Cargar el contador de números a generar
+
+generate_loop:
     mov eax, [seed]
     imul eax, [a]
     add eax, [c]
     mov [seed], eax
     call print_number
+    loop generate_loop  ; Decrementa ecx y repite mientras no sea 0
+
     mov eax, 1
     xor ebx, ebx
     int 0x80
@@ -55,61 +61,70 @@ convert_loop:
     int 0x80
 
     ret
+```
 
-section .data       ; Sección de datos con valores iniciales
-    seed dd 12345678      ; Semilla inicial
-    a dd 1664525         ; Constante multiplicativa
-    c dd 1013904223      ; Constante aditiva
-    m dd 4294967296      ; Módulo para el rango
-    newline db 10, 0     ; Salto de línea
+## Código con comentarios
+```asm
+section .data
+    seed dd 12345678          ; Semilla inicial
+    a dd 1664525             ; Multiplicador
+    c dd 1013904223          ; Incremento
+    m dd 4294967296          ; Módulo (no se usa directamente en el código)
+    newline db 10, 0         ; Caracter de nueva línea
+    count dd 20              ; Número de iteraciones
 
-section .bss        ; Sección de variables no inicializadas
-    num resb 10     ; Espacio reservado para la conversión numérica
+section .bss
+    num resb 10              ; Espacio reservado para el número convertido en string
 
-section .text       ; Sección de código
-    global _start   ; Punto de inicio
-    extern printf   ; Llamada externa a printf
+section .text
+    global _start
+    extern printf
 
 _start:
-    mov eax, [seed]    ; Cargar la semilla
-    imul eax, [a]      ; Multiplicar por la constante a
-    add eax, [c]       ; Sumar la constante c
-    mov [seed], eax    ; Guardar el nuevo valor de la semilla
-    call print_number  ; Llamar a la función para imprimir el número
-    mov eax, 1         ; Llamada para salir del programa
-    xor ebx, ebx       
-    int 0x80           ; Interrupción para salir
+    mov ecx, [count]         ; Cargar el contador de números a generar
+
+generate_loop:
+    mov eax, [seed]          ; Cargar la semilla en eax
+    imul eax, [a]            ; Multiplicar por el coeficiente 'a'
+    add eax, [c]             ; Sumar el coeficiente 'c'
+    mov [seed], eax          ; Guardar el nuevo valor de la semilla
+    call print_number        ; Llamar a la función para imprimir el número
+    loop generate_loop       ; Decrementa ecx y repite mientras no sea 0
+
+    mov eax, 1               ; Llamada al sistema para salir del programa
+    xor ebx, ebx
+    int 0x80
 
 print_number:
-    mov ecx, num + 9   ; Apuntar al final del buffer
-    mov byte [ecx], 0  ; Añadir terminador nulo
-    dec ecx            ; Moverse hacia atrás
+    mov ecx, num + 9         ; Apuntar al final del buffer
+    mov byte [ecx], 0        ; Agregar terminador de cadena
+    dec ecx
 
 convert_loop:
-    mov edx, 0         ; Limpiar edx para la división
-    mov ebx, 10        ; Base decimal
-    div ebx            ; Dividir eax entre 10
-    add dl, '0'        ; Convertir el residuo en carácter
-    mov [ecx], dl      ; Guardar el carácter en el buffer
-    dec ecx            ; Mover el puntero
-    test eax, eax      ; Verificar si eax es 0
-    jnz convert_loop   ; Si no es 0, repetir
+    mov edx, 0               ; Limpiar edx para la división
+    mov ebx, 10              ; Dividir por 10 para obtener el dígito menos significativo
+    div ebx                  ; eax / 10, cociente en eax, residuo en edx
+    add dl, '0'              ; Convertir residuo en carácter ASCII
+    mov [ecx], dl            ; Almacenar el carácter en el buffer
+    dec ecx                  ; Moverse hacia la izquierda en el buffer
+    test eax, eax            ; Verificar si eax es 0
+    jnz convert_loop         ; Si no es 0, continuar dividiendo
 
-    inc ecx            ; Moverse una posición hacia adelante
-    mov eax, 4         ; Llamada a la función write
-    mov ebx, 1         ; Descriptor de archivo (stdout)
-    mov edx, num + 9   ; Longitud del número
-    sub edx, ecx       ; Calcular la cantidad de caracteres
-    int 0x80           ; Interrupción para escribir
+    inc ecx                  ; Ajustar el puntero al inicio del número
+    mov eax, 4               ; Llamada al sistema para escribir en la salida estándar
+    mov ebx, 1               ; Descriptor de archivo para stdout
+    mov edx, num + 9
+    sub edx, ecx             ; Calcular longitud de la cadena
+    int 0x80
 
-    mov eax, 4         ; Llamada para imprimir nueva línea
-    mov ebx, 1         
-    mov ecx, newline   
-    mov edx, 1         
-    int 0x80           ; Interrupción para escribir
+    mov eax, 4               ; Llamada al sistema para imprimir una nueva línea
+    mov ebx, 1               ; Descriptor de archivo para stdout
+    mov ecx, newline         ; Dirección del carácter de nueva línea
+    mov edx, 1               ; Longitud de 1 byte
+    int 0x80
 
-    ret                ; Retornar a la ejecución
-
+    ret                      ; Retornar de la función
+```
 
 # Generador de números pseudoaleatorios con operaciones aritméticas
 
@@ -121,9 +136,7 @@ Este programa implementa un **Generador de números pseudoaleatorios** basado en
 ## ¿Cómo funciona?
 El método congruencial lineal utiliza la siguiente fórmula matemática para generar números pseudoaleatorios:
 
-\[
-X(n+1) = (a * X(n) + c) \% m
-\]
+
 
 Donde:
 - **X(n)**: Valor actual (semilla).
@@ -170,6 +183,9 @@ Cada número generado depende directamente del número anterior, lo que garantiz
 El algoritmo es **pseudoaleatorio** porque, aunque parece generar números al azar, siempre devuelve la misma secuencia si se usa la misma semilla inicial. Esto lo hace útil para simulaciones o pruebas donde se necesite reproducir los mismos resultados.
 
 ---
+
+## Conclusión
+Este programa es un ejemplo simple de cómo se pueden generar números pseudoaleatorios con operaciones aritméticas. Aunque no es adecuado para criptografía o aplicaciones de alta seguridad, sí sirve para simulaciones o pruebas básicas.
 
 ## Conclusión
 Este programa es un ejemplo simple de cómo se pueden generar números pseudoaleatorios con operaciones aritméticas. Aunque no es adecuado para criptografía o aplicaciones de alta seguridad, sí sirve para simulaciones o pruebas básicas.

@@ -1,15 +1,16 @@
 
 # Uso de la pila para almacenar y recuperar valores con operaciones PUSH y POP.
 
-### ¿Qué es una pila?
+### Explicacion del Programa
 
-Una pila es una estructura de datos la cual ordena los datos mediante LIFO, primer dato en entrar es el ultimo en salir. 
+Introducimos 3 valores en un registro, en este caso en Ra,luego los empujamos dentro de la pila con "**PUSH**" y con "**POP**" los recuperamos de la pila, en este caso hacemos uso del regristo Rd, dado que es el que esta relacionado con el display, por lo cual nos ayudara para visualizar lo que esta ocurriendo en el programa.
 
-
-> Explicacion del Programa
+>¿Qué es una pila?
 >
-> Introducimos 3 valores en un registro, en este caso en Ra,luego los empujamos dentro de la pila con "**PUSHP**" y con "**POP**" los recuperamos de la pila.
+>Una pila es una estructura de datos la cual ordena los datos mediante LIFO, primer dato en entrar es el ultimo en salir. 
 >
+
+
 
 
 

@@ -71,4 +71,4 @@ almacena el resultado final en una dirección de memoria específica.
 | `0x06`   | Dirección de memoria donde se almacena el resultado final. |
 
 # EVIDENCIA
-![](./image(3).png)
+![](./evidencia.png)

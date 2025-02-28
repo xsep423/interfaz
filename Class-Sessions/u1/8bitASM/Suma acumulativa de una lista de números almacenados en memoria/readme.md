@@ -70,3 +70,5 @@ almacena el resultado final en una dirección de memoria específica.
 | `0x05`   | Dirección de memoria de la cual se carga el quinto número. |
 | `0x06`   | Dirección de memoria donde se almacena el resultado final. |
 
+# EVIDENCIA
+![](./image (3).png)

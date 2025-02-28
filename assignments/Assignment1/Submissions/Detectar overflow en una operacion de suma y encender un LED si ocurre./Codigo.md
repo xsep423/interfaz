@@ -1,3 +1,4 @@
+```assembly
 .start:
   ; Cargar valores para la suma
   data Ra, 0x7FFF  ; Cargar un valor grande en Ra (32767 en decimal)

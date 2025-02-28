@@ -81,3 +81,17 @@ lcd Rc           ; Mostrar el valor de Rc (más grande) en la LCD
 hlt              ; Terminar la ejecución
 ```
 
+# Tabla de Instrucciones del Código
+
+| **Instrucción**     | **Descripción**                                                                                     |
+|----------------------|-----------------------------------------------------------------------------------------------------|
+| `lod`                | Carga el valor de una dirección de memoria en un registro.                                          |
+| `sto`                | Almacena el valor de un registro en una dirección de memoria.                                       |
+| `mov`                | Mueve el valor de un registro a otro.                                                               |
+| `cmp`                | Compara los valores de dos registros o un registro con una constante.                               |
+| `jnc`                | Salta a la etiqueta especificada si la comparación anterior no fue negativa (Carry flag no está activado). |
+| `jz`                 | Salta a la etiqueta especificada si la comparación anterior fue igual a cero (Zero flag activado).  |
+| `jmp`                | Salta incondicionalmente a la etiqueta especificada.                                                |
+| `clr`                | Limpia el registro (lo pone en cero).                                                               |
+| `rts`                | Retorna de una subrutina (especifica el final de una llamada a subrutina).                          |
+| `hlt`                | Detiene la ejecución del programa.                                                                  |

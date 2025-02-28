@@ -3,17 +3,23 @@ Madrid Lugo Victor Manuel 22211602
 #addr 0x00
 .start:  
 ; Cargar los números desde la memoria a los registros
+
 lod Ra, 0x01  ; Cargar primer número en Ra
+
 lod Rb, 0x02  ; Cargar segundo número en Rb
+
 add Ra        ; Sumar Rb a Ra (Ra = Ra + Rb)
 
 lod Rb, 0x03  ; Cargar tercer número en Rb
+
 add Ra        ; Sumar Rb a Ra (Ra = Ra + Rb)
   
 lod Rb, 0x04  ; Cargar cuarto número en Rb
+
 add Ra        ; Sumar Rb a Ra (Ra = Ra + Rb)
   
 lod Rb, 0x05  ; Cargar quinto número en Rb
+
 add Ra        ; Sumar Rb a Ra (Ra = Ra + Rb)
   
 sto Ra, 0x06  ; Almacenar resultado acumulado en la dirección de memoria 0x06

@@ -72,3 +72,6 @@ Para el desplazo a la izquierda pues, use la instrucción LSR, y para la derecha
 El número utilizado fue el 6, el cual en binario es 00000110.  
 Al ser desplazado a la izq. se convirtió en 00001100, el cual da 12.
 Al ser desplazado a la der. ser convirtió en 00000011, el cual es 3 en decimal.
+
+![despdderecha](https://github.com/Cheshire03/interfaz/blob/main/Class-Sessions/u1/8bitASM/Desplazamientos%20de%20bits%20a%20la%20izquierda%20y%20derecha/desplazamiento.png)
+![despdizquierda](https://github.com/Cheshire03/interfaz/blob/main/Class-Sessions/u1/8bitASM/Desplazamientos%20de%20bits%20a%20la%20izquierda%20y%20derecha/desplazamiento1.png)

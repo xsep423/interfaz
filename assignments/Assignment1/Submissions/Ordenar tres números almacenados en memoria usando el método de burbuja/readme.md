@@ -25,60 +25,68 @@
 ### Ordenamiento de 3 numeros metodo burbuja
 
 ```assembly
-; Definir las direcciones de memoria donde están almacenados los números
-NUM1 = 0x10      ; Dirección del primer número
-NUM2 = 0x11      ; Dirección del segundo número
-NUM3 = 0x12      ; Dirección del tercer número
+; Definimos las direcciones de memoria donde se almacenarán los números
+NUM1 = 0x10      ; Dirección de memoria para el primer número
+NUM2 = 0x11      ; Dirección de memoria para el segundo número
+NUM3 = 0x12      ; Dirección de memoria para el tercer número
 
-; Cargar los valores de memoria en los registros
-lod Ra, NUM1     ; Cargar el primer número en Ra
-lod Rb, NUM2     ; Cargar el segundo número en Rb
-lod Rc, NUM3     ; Cargar el tercer número en Rc
+start:
+    clra          ; Limpia el acumulador
 
-.bubble_sort:
-; Variable para verificar si hubo un intercambio
-clr Rd           ; Establecer Rd a cero, detectara intercambio
+    ; Almacenar los valores iniciales en memoria
+    mov Ra, 50    ; Primer número
+    sto Ra, NUM1  ; Guardamos el primer número en NUM1
 
-; Comparar Ra y Rb
-cmp Ra, Rb       ; Comparar Ra con Rb
-jnc .skip_swap1  ; Si Ra no es menor que Rb, saltar el intercambio
-mov Ra, Rb       ; Intercambiar Ra con Rb
-mov Rb, Rd       ; Copiar el valor de Rd en Rb
+    mov Ra, 30    ; Segundo número
+    sto Ra, NUM2  ; Guardamos el segundo número en NUM2
 
-.skip_swap1:
-; Comparar Rb y Rc
-cmp Rb, Rc       ; Comparar Rb con Rc
-jnc .skip_swap2  ; Si Rb no es menor que Rc, saltar el intercambio
-mov Rb, Rc       ; Intercambiar Rb con Rc
-mov Rc, Rd       ; Copiar el valor de Rd en Rc
+    mov Ra, 40    ; Tercer número
+    sto Ra, NUM3  ; Guardamos el tercer número en NUM3
 
-.skip_swap2:
-; Comparar Ra y Rb nuevamente
-cmp Ra, Rb       ; Comparar Ra con Rb
-jnc .end_sort    ; Si Ra no es menor que Rb, terminar el ciclo
-mov Ra, Rb       ; Intercambiar Ra con Rb
-mov Rb, Rd       ; Copiar el valor de Rd en Rb
+    ; Cargar los números de memoria en los registros
+    lod Ra, NUM1  ; Cargar el primer número en Ra
+    lod Rb, NUM2  ; Cargar el segundo número en Rb
+    lod Rc, NUM3  ; Cargar el tercer número en Rc
 
-; Si no hubo intercambio, salir del ciclo
-lod Rd, Ra       ; Cargar Ra en Rd para ver si cambio
-cmp Rd, Rb       ; Comparar Rd y Rb
-jz .end_sort     ; Si Rd es igual a Rb, si no hubo intercambio termina el ciclo
+    ; Comparar Ra con Rb
+    cmp Ra, Rb    ; Compara Ra con Rb
+    jnc skip1     ; Si Ra ≤ Rb, saltar el intercambio
+    mov Rd, Ra    ; Guardar Ra en Rd (temporal)
+    mov Ra, Rb    ; Mover Rb a Ra
+    mov Rb, Rd    ; Mover Rd a Rb
 
-; Repetir hasta que los números estén ordenados
-jmp .bubble_sort
+skip1:
+    ; Comparar Rb con Rc
+    cmp Rb, Rc    ; Compara Rb con Rc
+    jnc skip2     ; Si Rb ≤ Rc, saltar el intercambio
+    mov Rd, Rb    ; Guardar Rb en Rd (temporal)
+    mov Rb, Rc    ; Mover Rc a Rb
+    mov Rc, Rd    ; Mover Rd a Rc
+
+skip2:
+    ; Comparar Ra con Rb nuevamente
+    cmp Ra, Rb    ; Compara Ra con Rb
+    jnc skip3     ; Si Ra ≤ Rb, saltar el intercambio
+    mov Rd, Ra    ; Guardar Ra en Rd (temporal)
+    mov Ra, Rb    ; Mover Rb a Ra
+    mov Rb, Rd    ; Mover Rd a Rb
+
+skip3:
+    ; Verificar si hubo intercambio. Si no, terminar
+    lod Rd, Ra    ; Cargar Ra en Rd
+    cmp Rd, Rb    ; Comparar Ra con Rb
+    jz .end_sort  ; Si no hubo intercambio, termina el ciclo
+
+    ; Si hubo intercambio, repetir el ciclo
+    jmp start
 
 .end_sort:
-; Almacenamos los números ordenados de nuevo en memoria (direcciones explícitas)
-sto Ra, NUM1     ; Guardar el valor de Ra (el más pequeño) en la dirección NUM1
-sto Rb, NUM2     ; Guardar el valor de Rb (el segundo más pequeño) en la dirección NUM2
-sto Rc, NUM3     ; Guardar el valor de Rc (el más grande) en la dirección NUM3
+    ; Almacenar los números ordenados de nuevo en memoria
+    sto Ra, NUM1  ; Guardar el valor de Ra (el menor) en NUM1
+    sto Rb, NUM2  ; Guardar el valor de Rb (el segundo menor) en NUM2
+    sto Rc, NUM3  ; Guardar el valor de Rc (el mayor) en NUM3
 
-; Mostrar los números en la LCD (si la instrucción lcd es válida en tu sistema)
-lcd Ra           ; Mostrar el valor de Ra (más pequeño) en la LCD
-lcd Rb           ; Mostrar el valor de Rb (segundo más pequeño) en la LCD
-lcd Rc           ; Mostrar el valor de Rc (más grande) en la LCD
-
-hlt              ; Terminar la ejecución
+    hlt           ; Termina la ejecución
 ```
 
 # Tabla de Instrucciones del Código

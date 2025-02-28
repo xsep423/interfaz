@@ -1,6 +1,6 @@
 
 # Uso de la pila para almacenar y recuperar valores con operaciones PUSH y POP.
-[**Opcion #1**]([https://cpu.visualrealmsoftware.com/emu/?h=37070ab00732b0071eb05e0000005e0000005e0000002f00&s=](https://cpu.visualrealmsoftware.com/emu/?h=37070ab00732b0071eb05e0000005e0000005e0000002f00&s=))
+[**Opcion #1**](https://cpu.visualrealmsoftware.com/emu/?h=37070ab00732b0071eb05e0000005e0000005e0000002f00&s=)
 ```.asm 
 
 .pila: 
@@ -29,7 +29,7 @@ jmp .pila;
 
 ```
 
-[**Opcion 2**]([https://cpu.visualrealmsoftware.com/asm/](https://cpu.visualrealmsoftware.com/emu/?h=37b70ab732b71e5e00000000005e00000000005e00000000002f00&s=))
+[**Opcion 2**]((https://cpu.visualrealmsoftware.com/emu/?h=37b70ab732b71e5e00000000005e00000000005e00000000002f00&s=))
 ```.asm
 .pila: 
     clra

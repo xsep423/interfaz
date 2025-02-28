@@ -52,8 +52,8 @@ Este proyecto implementa un **temporizador en ensamblador** que inicia desde **1
     nop  
 
     jmp .begin       ; Reiniciar el conteo desde 10
+```
+## Capturas
+![image](https://github.com/user-attachments/assets/f707cc3f-0dc9-4997-85ba-d179082b4520)
 
 
-
-
-    

@@ -1,5 +1,5 @@
 # Generador de números pseudoaleatorios
- ##Francisco Javier Villegas Suarez
+ ##Francisco Javier Villegas Suarez--22210364
 ## Código sin comentarios
 ```asm
 section .data

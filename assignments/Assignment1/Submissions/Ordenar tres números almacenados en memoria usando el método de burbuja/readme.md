@@ -25,10 +25,10 @@
 ### Ordenamiento de 3 numeros metodo burbuja
 
 ```assembly
-;Este programa hacer un metodo de ordenamiento de 3 numeros por metodo burbuja
+; Este programa hacer un metodo de ordenamiento de 3 numeros por metodo burbuja
 
-;Roldan Castro Luis Alberto
-;SC6C
+; Roldan Castro Luis Alberto
+; SC6C
 
 ; Definimos las direcciones de memoria donde se almacenarán los números
 NUM1 = 0x10      ; Dirección de memoria para el primer número

@@ -1,6 +1,21 @@
 # Programa: Suma de una serie aritmética almacenada en memoria y mostrar el resultado.
 ## Código de ensamblador.
- #addr 0xA0  ; Definir la dirección base de memoria
+
+    ;***************************************************************
+    ; Nombre del archivo: Suma_de_una_serie_aritmetica 
+    ; Autor: Espino Hernández Jaime Paul  
+    ; Fecha de creación: 02-03-2025  
+    ; Descripción:  
+    ;   Este programa tiene la funcionalidad de realizar una suma aritmética que se 
+    ;   encuentra almacenada en memoria y mostrar el resultado. 
+    ;   
+    ; Arquitectura: Troy Breadboard Computer
+    ;   
+    ; Derechos de autor y licencia:  
+    ;   Código abierto 
+    ;**************************************************************
+
+    #addr 0xA0  ; Definir la dirección base de memoria
 
     begin:
     ; Almacenar una secuencia de números pares en memoria comenzando en la dirección 0x80

@@ -22,6 +22,8 @@ Soberanes Oregel Cristopher Daniel - C20211465
 **NOMBRE DEL MAESTRO (A):**  
 René Solis Reyes
 
+##### Código fuente documentado
+
 ```assembly
  ; Nombre: Soberanes Oregel  Cristopher Daniel
 DISPLAY_MODE = LCD_CMD_DISPLAY | LCD_CMD_DISPLAY_ON | LCD_CMD_DISPLAY_CURSOR | LCD_CMD_DISPLAY_CURSOR_BLINK

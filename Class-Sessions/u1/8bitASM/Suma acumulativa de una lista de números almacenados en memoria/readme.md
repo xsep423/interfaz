@@ -1,7 +1,9 @@
 Madrid Lugo Victor Manuel 22211602
 # CÓDIGO FUENTE
+```
+; Madrid Lugo Victor Manuel 22211602
 #addr 0x00
-.start:  
+.start: 
 ; Cargar los números desde la memoria a los registros
 
 lod Ra, 0x01  ; Cargar primer número en Ra
@@ -25,7 +27,7 @@ add Ra        ; Sumar Rb a Ra (Ra = Ra + Rb)
 sto Ra, 0x06  ; Almacenar resultado acumulado en la dirección de memoria 0x06
   
 hlt           ; Detener la ejecución
-
+```
 # FUNCIONAMIENTO Y LÓGICA DEL CÓDIGO
 Este programa de ensamblador tiene como objetivo sumar acumulativa de cinco números almacenados en direcciones de memoria consecutivas y almacenar el resultado en
 una ubicación específica. El programa comienza en la dirección 0x00 con la etiqueta .start:. Primero, carga el primer número desde la dirección 0x01 al registro Ra. 

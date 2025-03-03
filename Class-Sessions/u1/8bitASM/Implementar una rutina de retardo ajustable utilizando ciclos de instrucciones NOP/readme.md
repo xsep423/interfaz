@@ -1,4 +1,10 @@
 # Código fuente documentado.
+
+	;*******************************************************
+	; Nombre del Proyecto: [Implementar una rutina de retardo ajustable utilizando ciclos de instrucciones NOP]
+	; Autor: [Vargas Perez Leonardo Gael - 22211669]
+	; Fecha: [27/02/2025]
+	;*******************************************************
 	mov Rd, 10  ; Inicializa Rd con 10
 
 	.delay_loop:

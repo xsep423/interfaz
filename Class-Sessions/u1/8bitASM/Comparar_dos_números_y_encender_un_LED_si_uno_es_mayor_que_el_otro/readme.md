@@ -29,7 +29,7 @@ La práctica compara dos números almacenados en los registros Ra y Rb. Luego, m
 
 assembly
 ```assembly
-
+;Luis Manuel Ramón Hernández
 ; Programa para comparar dos números y encender un LED si uno es mayor que el otro
 
 ; Definimos los números a comparar (puedes cambiar estos valores)

@@ -1,4 +1,8 @@
-# Temporizador en Ensamblador con NOPs
+# Temporizador simulado con ciclos de retardo usando instrucciones NOP
+
+**📌 Autor:** Jennifer Nicole Macedo Cruz  
+**📅 Fecha:** 03/03/2025  
+**📝 Descripción:** Implementa un temporizador regresivo que cuenta desde 10 hasta 0 y luego se reinicia.  
 
 ## Descripción  
 
@@ -7,6 +11,15 @@ Este proyecto implementa un **temporizador en ensamblador** que inicia desde **1
 ```assembly
 ; FIBONACCI SEQUENCE
 ;
+; ---------------------------------------------------
+; INSTITUTO TECNOLÓGICO DE TIJUANA
+; Programa: Temporizador simulado con ciclos de retardo usando instrucciones NOP
+; Autor: Jennifer Nicole Macedo Cruz
+; No. Control: 22211599
+; Fecha: 03/03/2025
+; Descripción: Implementa un temporizador regresivo que 
+; cuenta desde 10 hasta 0 y luego se reinicia.
+; ---------------------------------------------------
 ; If you want to halt instead of repeat, look
 ; at the jc .begin line. You might want to create
 ; Another label with another action to end ;)

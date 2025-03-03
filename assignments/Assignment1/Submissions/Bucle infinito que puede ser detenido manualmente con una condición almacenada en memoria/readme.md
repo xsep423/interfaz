@@ -1,3 +1,4 @@
+# INSTITUTO TECNÓLOGICO DE TIJUANA
 # Bucle infinito que puede ser detenido manualmente con una condición almacenada en memoria.
 
 Este programa en ensamblador está diseñado para realizar una comparación entre un contador y un valor fijo que funcionará como punto de partida para una condición, tiene la capacidad de reiniciar

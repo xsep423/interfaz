@@ -1,6 +1,28 @@
-;Sandoval Marquez Oscar Sebastian
-; FIBONACCI SEQUENCE; Programa para comparar valores y mover el menor a un registro y el mayor a otro
+*TECNOLÓGICO NACIONAL DE MÉXICO*  
+*INSTITUTO TECNOLÓGICO DE TIJUANA*
 
+*SUBDIRECCIÓN ACADÉMICA*  
+*DEPARTAMENTO DE SISTEMAS Y COMPUTACIÓN*
+
+*SEMESTRE:*  
+Enero - Junio 2025
+
+*CARRERA:*  
+Ingeniería en Sistemas Computacionales
+
+*MATERIA:*  
+Lenguajes de interfaz
+
+*TÍTULO ACTIVIDAD:*  
+Generar un número aleatorio mediante una combinación de operaciones en registros
+
+*NOMBRE Y NÚMERO DE CONTROL:*  
+Sandoval Marquez Oscar Sebastian - 22211660  
+
+*NOMBRE DEL MAESTRO(A):*  
+René Solis Reyes
+```assembly
+  ; Sandoval Marquez Oscar Sebastian
 #addr 0x00      ; Establecer la dirección de inicio en 0x00
 start:
   mva #10       ; Inicia el registro Ra con el valor 10

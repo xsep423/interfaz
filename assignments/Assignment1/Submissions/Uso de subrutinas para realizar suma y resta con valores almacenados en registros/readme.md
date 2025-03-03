@@ -1,5 +1,5 @@
-### Alumno: Hernández Patiño Tomás Hendrick
-### Número de control: 22211582
+; Alumno: Hernández Patiño Tomás Hendrick
+; Número de control: 22211582
 
 
     addr 0x80  ; Definimos la dirección de la subrutina de suma 

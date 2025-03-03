@@ -1,5 +1,5 @@
 # Generador de números pseudoaleatorios
- ##Francisco Javier Villegas Suarez--22210364
+ 
 ## Código sin comentarios
 ```asm
 section .data
@@ -62,7 +62,7 @@ convert_loop:
 
     ret
 ```
-
+Francisco Javier Villegas Suarez--22210364
 ## Código con comentarios
 ```asm
 section .data

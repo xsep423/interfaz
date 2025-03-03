@@ -1,12 +1,12 @@
 /***********************************************************************************************************************
-
-Autor: CEBALLOS RESENDIZ VERONICA SARAHI
-Programa: Contador de 0 a 255, mostrando los valores en LEDs y reiniciando al llegar al máximo
-Descripción: Este programa cuenta de 0 a 255 y muestra los valores en el LEDs y se reinicia una vez que llega al máximo
-Fecha: 27 de febrero de 2025
-versión: Assembly
-
-/************************************************************************************************************************
+ * Autor:         Ceballos Reséndiz Verónica Sarahi
+ * Programa:      Contador binario en LEDs (0 - 255)
+ * Descripción:   Este programa implementa un contador de 8 bits que incrementa desde 0 hasta 255, mostrando cada valor 
+ *                en un conjunto de LEDs. Al alcanzar el valor máximo (255), el contador se reinicia automáticamente a 0.
+ * Plataforma:    [Especifica el microcontrolador o arquitectura, por ejemplo: PIC16F877A, 8051, AVR, etc.]
+ * Fecha:         27 de febrero de 2025
+ * Versión:       1.0
+ ***********************************************************************************************************************/
 .start:
 clr Ra ; Inicializa Ra en 0
 clr Rd ; Inicializa Rd (display de LEDs) en 0

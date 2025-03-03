@@ -8,16 +8,18 @@
  * Versión:       1.0
  ***********************************************************************************************************************/
 .start:
-clr Ra ; Inicializa Ra en 0
-clr Rd ; Inicializa Rd (display de LEDs) en 0
+    clr Ra        ; Inicializa Ra en 0
+    clr Rd        ; Inicializa Rd (display de LEDs) en 0
 
 .loop:
-mov Rd, Ra ; Mueve el valor de Ra al registro Rd para mostrarlo
-inc Ra ; Incrementa Ra en 1
-cmp Ra ; Compara Ra con 255
-jz .reset ; Si Ra es 0 (después de 255), reinicia el contador
+    mov Rd, Ra    ; Mueve el valor de Ra al registro Rd para mostrarlo
+    inc Ra        ; Incrementa Ra en 1
+    cmp Ra        ; Compara Ra con 255
+    jz .reset     ; Si Ra es 0 (después de 255), reinicia el contador
 
-jmp .loop     ; Continúa el bucle
+    jmp .loop     ; Continúa el bucle
+
 .reset:
-clr Ra ; Reinicia Ra a 0
-jmp .loop ; Vuelve al bucle
+    clr Ra        ; Reinicia Ra a 0
+    jmp .loop     ; Vuelve al bucle
+

@@ -1,3 +1,4 @@
+;Sandoval Marquez Oscar Sebastian
 ; FIBONACCI SEQUENCE; Programa para comparar valores y mover el menor a un registro y el mayor a otro
 
 #addr 0x00      ; Establecer la dirección de inicio en 0x00

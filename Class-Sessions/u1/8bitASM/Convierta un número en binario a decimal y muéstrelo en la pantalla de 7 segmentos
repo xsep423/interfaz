@@ -79,6 +79,9 @@ Este programa en ensamblador convierte un número binario de 8 bits a su represe
 # Código de Conversión Binaria a Decimal
 
 ```assembly
+;Nombre: Nuñez Vargas David Ignacio
+;Numero de control: 22211624
+
 NUMBER = 135       ; Número binario de 8 bits que se va a convertir.
 ADDR   = 0         ; Dirección de memoria inicial para almacenar los dígitos decimales.
 TERMINATOR = 255   ; Delimitador para marcar el final de los dígitos en memoria.

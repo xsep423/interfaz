@@ -48,5 +48,3 @@ Ya que el Registro A está desocupado lo utilizo para guardar mi variable "limit
 Agregué un cmp donde se compara el valor del límite "Ra" con "Rb" que es el último número de la secuencia que se calcula. Si el número es igual se activa la bandera Z y salta al procedimiento ".end".
 
 ".end" contiene solo un "hlt" que detiene el reloj.
-
-![Emulador]()

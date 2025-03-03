@@ -1,4 +1,8 @@
-#addr 0x80  ; Definimos la dirección de la subrutina de suma
+### Alumno: Hernández Patiño Tomás Hendrick
+### Número de control: 22211582
+
+
+#addr 0x80  ; Definimos la dirección de la subrutina de suma 
 .add_subroutine:
   add Ra    ; Suma Rb a Ra (Ra = Ra + Rb)
   ret       ; Retorna al punto de llamada
@@ -24,26 +28,26 @@
   hlt          ; Detiene la ejecución
 
 
-###Explicación del Código:
+### Explicación del Código:
 #
-#---Subrutina de Suma (add_subroutine):
+# ---Subrutina de Suma (add_subroutine):
 #
-#Utiliza la instrucción add Ra para sumar Rb a Ra.
+# Utiliza la instrucción add Ra para sumar Rb a Ra.
 #
-#Retorna con ret al punto de llamada.
+# Retorna con ret al punto de llamada.
 #
-#---Subrutina de Resta (sub_subroutine):
+# ---Subrutina de Resta (sub_subroutine):
 #
-#Utiliza la instrucción sub Ra para restar Rb de Ra.
+# Utiliza la instrucción sub Ra para restar Rb de Ra.
 #
-#Retorna con ret al punto de llamada.
+# Retorna con ret al punto de llamada.
 #
-#---Programa Principal:
+# ---Programa Principal:
 #
-#Carga valores en Ra y Rb.
+# Carga valores en Ra y Rb.
 #
-#Llama a las subrutinas usando call.
+# Llama a las subrutinas usando call.
 #
-#Mueve el resultado a Rd para mostrarlo en el display.
+# Mueve el resultado a Rd para mostrarlo en el display.
 #
-#Finaliza con hlt.
+# Finaliza con hlt.

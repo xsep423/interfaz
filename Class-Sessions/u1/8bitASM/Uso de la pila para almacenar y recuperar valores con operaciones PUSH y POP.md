@@ -40,7 +40,7 @@ Introducimos 3 valores en un registro, en este caso en Ra,luego los empujamos de
       nop
       nop;
 jmp .pila;
-
+#Karla Itzel Vazquez Cruz
 ```
 
 [**Opcion 2**](https://cpu.visualrealmsoftware.com/emu/?h=37b70ab732b71e5e00000000005e00000000005e00000000002f00&s=)
@@ -71,6 +71,7 @@ jmp .pila;
       nop
       nop;
 jmp .pila;
+#Karla Itzel Vazquez Cruz
 ```
 ## Comandos a Utilizar 
 
@@ -123,4 +124,4 @@ pila:
 jmp pila ; realiza un salto a la etiqueta "pila"
 ```
 
-### **KARLA ITZEL VAZQUEZ CRUZ**
+

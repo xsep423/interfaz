@@ -1,4 +1,6 @@
-##### Test 02 Soberanes Cristopher
+##### Invertir Numero y Mostrar Numero - Soberanes Oregel Cristopher
+
+```assembly
 
 DISPLAY_MODE = LCD_CMD_DISPLAY | LCD_CMD_DISPLAY_ON | LCD_CMD_DISPLAY_CURSOR | LCD_CMD_DISPLAY_CURSOR_BLINK
 

@@ -8,7 +8,7 @@
 
 **Carrera:** Sistemas computacionales
 **Materia:** Lenguajes de interfaz SCC-1014
-**Titulo:**  Comparar dos números y encender un LED si uno es mayor que el otro.
+**Titulo:**  Comparar dos números y encender un LED si uno es mayor que el otro
  
 **Unidad:** 1
 

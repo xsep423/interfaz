@@ -24,6 +24,11 @@
 ### Rotación de bits
 
 ```assembly
+; este programa mostrara una serie de bits rotados hacia la izquierda en registro C y hacia la derecha en registro A
+; aunque para mostrarce se pausara y lo mostrara en el registro B
+;
+; hecho por: fonseca novelo
+; sientete libre de cambiar el patron
 Pattern = 0b11001100
 
 	clra
@@ -65,6 +70,7 @@ Pattern = 0b11001100
 .last:
 	mvb Ra
 	mvd #0
+	nop	; tantos como sean necesarios
 	nop
 	nop
 	nop
@@ -87,8 +93,7 @@ Pattern = 0b11001100
 	nop
 	nop
 	nop
-	nop
-	nop
+	nop	;		:3
 	nop
 	nop
 	nop

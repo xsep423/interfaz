@@ -8,7 +8,7 @@
 
 **Carrera:** Sistemas computacionales
 **Materia:** Lenguajes de interfaz SCC-1014
-**Titulo:** Introduccion en Markdown
+**Titulo:**  Comparar dos números y encender un LED si uno es mayor que el otro.
  
 **Unidad:** 1
 
@@ -27,7 +27,7 @@ La práctica compara dos números almacenados en los registros Ra y Rb. Luego, m
 
 **Código del programa**
 
-assembly
+
 ```assembly
 ;Luis Manuel Ramón Hernández
 ; Programa para comparar dos números y encender un LED si uno es mayor que el otro

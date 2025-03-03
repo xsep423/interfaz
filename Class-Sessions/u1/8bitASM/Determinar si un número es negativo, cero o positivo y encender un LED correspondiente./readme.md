@@ -1,5 +1,15 @@
 Ernesto Torres Pineda 22211665
-# Codigo
+# Codigo de la Practica
+```Assembly
+;=================================================================================================================
+; File name	: Practica.asm
+; Author	: [Ernesto Torres Pineda]
+; Date		: [03/03/2025]
+; Title		: [Determinar si un número es negativo, cero o positivo y encender un LED correspondiente.]
+; Description	: [Este programa analiza un numero dado y determina si es negativo, positivo o cero y lo indica.]
+; Assembler	: [Troy's Breadboard Copmuter]
+; Architecture	: [Personalized CPU]
+; ===============================================================================================================
     ; Define the number to check
     NUMBER = 0  ; Change this value to test other numbers
 
@@ -71,6 +81,7 @@ Ernesto Torres Pineda 22211665
     strNegative: #d "Is negative\0"
     strZero: #d "Is zero\0"
     strPositive: #d "Is positive\0"
+```
 
 # Explicacion
 ## Este código en ensamblador verifica si un número es negativo, cero o positivo y muestra el mensaje correspondiente en la pantalla LCD. Funciona en 4 etapas:

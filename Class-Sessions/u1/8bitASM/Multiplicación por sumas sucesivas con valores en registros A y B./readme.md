@@ -1,16 +1,19 @@
 # 1. Código fuente
+	
+ 	; ===============================================
+	; Multiplicación por sumas sucesivas con valores en registros A y B.
+	; -----------------------------------------------
+	; Troy's 8-bit computer - Emulator
+	; Código realizado por Hugo David Castellon Godinez (C22211889)
+	; ===============================================
 
-    ; Multiplicación por sumas sucesivas con valores en registros A y B. 
-    ; C22211889 Hugo David Castellon Godinez
-    ; LI 3pm
-    
-    data Rb, 3		; ENTRADA Indica número multiplicando
+		data Rb, 3		; ENTRADA Indica número multiplicando
 		sto Rb, 0x10	; Se almacena multiplicando en memoria
 		data Rb, 20		; ENTRADA Indica número multiplicador
 		sto Rb, 0x11	; Se almacena multiplicador en memoria
 		data Ra, 0		; Variable para guardar e imprimir sumas
 		data Rc, 0		; Contador
-
+	
 	.loop:
 		lod Rb, 0x10	; Se carga el número multiplicando
 		add Ra			; Se suma el número
@@ -19,7 +22,7 @@
 		inc Rc			; Se incrementa el contador
 		cmp Rc			; Se compara si el contador es menor al multiplicador y se registra en N
 		jn .loop		; Si es el caso, continua hasta que se iguale
-
+	
 	.end:
 		mvd Ra			; Mantiene en pantalla el resultado final
 		jmp .end

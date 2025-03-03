@@ -23,7 +23,7 @@ Soberanes Oregel Cristopher Daniel - C20211465
 René Solis Reyes
 
 ```assembly
-###;Nombre: Soberanes Oregel  Cristopher Daniel
+;Nombre: Soberanes Oregel  Cristopher Daniel
 DISPLAY_MODE = LCD_CMD_DISPLAY | LCD_CMD_DISPLAY_ON | LCD_CMD_DISPLAY_CURSOR | LCD_CMD_DISPLAY_CURSOR_BLINK
 
 lcc #LCD_INITIALIZE

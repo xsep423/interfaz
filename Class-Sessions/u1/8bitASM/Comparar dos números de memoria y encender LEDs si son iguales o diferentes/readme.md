@@ -1,5 +1,6 @@
+# <p align="center"> 22211600 - Machado Sanchez Javier </p> 
 ```asm
- ; Programa: Comparar 5 y 7
+; Programa: Comparar 5 y 7
 ; Muestra "error" si los números son diferentes
 ; o muestra el mismo número (en este ejemplo, se muestra 5) si son iguales
 NUM1 = 7
@@ -58,3 +59,6 @@ strFalse: #d "false\0"
 strTrue: #d "true\0"
 
 ```
+
+    
+![Gif](https://i1.wp.com/giffiles.alphacoders.com/215/215462.gif)

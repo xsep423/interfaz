@@ -1,4 +1,26 @@
-##### Invertir Numero y Mostrar Numero - Soberanes Oregel Cristopher
+**TECNOLÓGICO NACIONAL DE MÉXICO**  
+**INSTITUTO TECNOLÓGICO DE TIJUANA**
+
+**SUBDIRECCIÓN ACADÉMICA**  
+**DEPARTAMENTO DE SISTEMAS Y COMPUTACIÓN**
+
+**SEMESTRE:**  
+Enero - Junio 2025
+
+**CARRERA:**  
+Ingeniería en Sistemas Computacionales
+
+**MATERIA:**  
+Lenguajes de interfaz
+
+**TÍTULO ACTIVIDAD:**  
+Mostrar Numero e Invertir Numeros
+
+**NOMBRE Y NÚMERO DE CONTROL:**  
+Soberanes Oregel Cristopher Daniel - C20211465  
+
+**NOMBRE DEL MAESTRO (A):**  
+René Solis Reyes
 
 ```assembly
 

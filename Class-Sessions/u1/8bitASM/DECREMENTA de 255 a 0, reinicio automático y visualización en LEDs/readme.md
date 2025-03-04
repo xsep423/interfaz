@@ -9,9 +9,15 @@ facilmente en la pantalla de arriba.
 
 ##  Código Fuente:
 ```asm
+; =========================================
+; DECREMENTA de 255 a 0, reinicio automático y visualización en LEDs
+; 8bit Assembly
+; Por: Alfredo Campaña Vázquez
+; #22211529
+; =========================================
+
 ;	Limpia los registros
-	clra
-	
+	clra	
 ;	Declara la función loop
 .loop:	
 ;	Se resta 1 a Ra

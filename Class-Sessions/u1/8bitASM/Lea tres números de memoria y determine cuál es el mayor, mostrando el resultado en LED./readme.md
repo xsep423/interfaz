@@ -1,4 +1,13 @@
 # CÓDIGO FUENTE DOCUMENTADO
+    ;------------------------------------------------------------------------------------------------------------------------------
+    ;                                            INSTITUTO TECNOLOGICO DE TIJUANA
+    ;Nombre del Programa: Lea tres números de memoria y determine cuál es el mayor, mostrando el resultado en LED.
+    ;Autor: Daniel Romero Bravo
+    ;Fecha de Entrega: 03/03/2025
+    ;Num. Control: 22211650
+    ;Descripción: Este programa en ensamblador encuentra el número más alto entre tres valores predefinidos y lo muestra en el display.
+    ;------------------------------------------------------------------------------------------------------------------------------
+    
     ; Cargar los tres números en registros
     mva #43  ; Primer número en Ra
     mvb #23  ; Segundo número en Rb

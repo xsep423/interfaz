@@ -2,8 +2,9 @@ Ernesto Torres Pineda 22211665
 # Codigo de la Practica
 ```Assembly
 ;=================================================================================================================
+; INSTITUTO TECNOLOGICO DE TIJUANA
 ; File name	: Practica.asm
-; Author	: [Ernesto Torres Pineda]
+; Author	: [Ernesto Torres Pineda 22211665]
 ; Date		: [03/03/2025]
 ; Title		: [Determinar si un número es negativo, cero o positivo y encender un LED correspondiente.]
 ; Description	: [Este programa analiza un numero dado y determina si es negativo, positivo o cero y lo indica.]

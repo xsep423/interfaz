@@ -1,10 +1,29 @@
 # <p align="center"> 22211600 - Machado Sanchez Javier </p> 
 ```asm
+;
+;       __            _                      
+;      / /___ __   __(_)__  _____            
+; __  / / __ `/ | / / / _ \/ ___/            
+;/ /_/ / /_/ /| |/ / /  __/ /                
+;\____/\__,_/ |___/_/\___/_/                 
+;    __  ___           __              __    
+;   /  |/  /___ ______/ /_  ____ _____/ /___ 
+;  / /|_/ / __ `/ ___/ __ \/ __ `/ __  / __ \
+; / /  / / /_/ / /__/ / / / /_/ / /_/ / /_/ /
+;/_/  /_/\__,_/\___/_/ /_/\__,_/\__,_/\____/ 
+;                                           
+;###############################################################################                                                  
+;#                        Machado Sanchez Javier                               #
+;#                                22211600                                     #
+;#                                                                             #
+;# Comparar dos números de memoria y encender LEDs si son iguales o diferentes #
+;#                                                                             #
+;###############################################################################
 ; Programa: Comparar 5 y 7
-; Muestra "error" si los números son diferentes
-; o muestra el mismo número (en este ejemplo, se muestra 5) si son iguales
-NUM1 = 7
-NUM2 = 5
+; Muestra "false" si los números son diferentes
+; o muestra "true" si son iguales
+NUM1 = 5
+NUM2 = 7
 
 DISPLAY_MODE = LCD_CMD_DISPLAY | LCD_CMD_DISPLAY_ON
 ADDR       = 0

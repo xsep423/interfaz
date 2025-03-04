@@ -14,28 +14,34 @@ Serie:  0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233
 
 Código en lenguaje ensamblador:
 ~~~
-limite = 21 ; Establezca un limite de la serie de Fibonacci
+; Cruz Lafarga Iván
+; #22211548
+
+; Inicio del programa
+
+limite = 20		; Declaro variable
 	
 .begin:	
-	clra
-	data Ra, limite
-	inc Rb
+	clra		; Limpia todos los registros de a-d
+	data Ra, limite	; Mi variable se muevo al registro a
+	inc Rb		; Incrementa el valor en el registro b
 	
 .loop:
-	add Rc, Rb
-	jc .begin
-	mov Rd, Rc
-	mov Rc, Rb
-	mov Rb, Rd
+	add Rc, Rb	; Se suma el valor del Rb con Rc y se almec
+	jc .begin	; Si hay acarreo salta a .begin
+	mov Rd, Rc	; El valor de Rc se mueve a Rd
+	mov Rc, Rb	; El valor de Rb se mueve a Rc
+	mov Rb, Rd	; El valor de Rd se mueve a Rb
 	
-	cmp Ra  ; Compara el limite con rl ultimo número de la serie
-	jn .end ; Para en un valor aproximado
-	jz .end ; Para si el limite es igual al siguiente 
+	cmp Ra		; Compara el limite con el ultimo regitro calculado
+	jn .end		; Si la bandera N está activa salta a .end
 	
-	jmp .loop
+	jmp .loop	; Ejecuta .loop
 	
 .end:
-	hlt
+	hlt		; Interrumpe el programa
+
+; Fin del programa
 ~~~
 Este el código con la modificación del número limite.
 Escogí el número 21 de la serie de Fibonacci para que parara justo en ese número, si se escoge un número aproximado a algún número de la secuencia, este parara en el número siguiente.

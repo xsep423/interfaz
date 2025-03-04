@@ -14,11 +14,13 @@ Serie:  0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233
 
 Código en lenguaje ensamblador:
 ~~~
-; Cruz Lafarga Iván
-; #22211548
+; -----------------------------------------------------------------------------
+; Nombre del Programa  : Generar la secuencia de Fibonacci hasta un número límite definido en memoria
+; Autor               : Iván Cruz Lafarga
+; Plataforma          : Troy's Breadboard Computer
+; -----------------------------------------------------------------------------
 
 ; Inicio del programa
-
 limite = 20		; Declaro variable
 	
 .begin:	

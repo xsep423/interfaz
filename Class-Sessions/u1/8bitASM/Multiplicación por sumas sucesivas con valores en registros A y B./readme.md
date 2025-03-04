@@ -16,7 +16,7 @@ Lenguaje de Interfaz
 **UNIDAD 2:**  
 Programación Básica
 
-# a
+# Introducción a los Computadores de 8 Bits y Ensamblador
 
 **Gpo. SC06**   
 

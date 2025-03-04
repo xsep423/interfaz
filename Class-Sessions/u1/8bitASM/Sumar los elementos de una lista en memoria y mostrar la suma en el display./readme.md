@@ -88,5 +88,6 @@ El programa sigue los siguientes pasos:
 
 ## Demostración
 ![Captura de pantalla 2025-03-03 202611](https://github.com/user-attachments/assets/4665c1db-cf80-412d-9989-f2d59f7f996a)
-![Captura de pantalla 2025-03-03 202639](https://github.com/user-attachments/assets/4551fc32-4a3f-4613-82f0-0004455e4525)
+![Captura de pantalla 2025-03-03 203341](https://github.com/user-attachments/assets/d9085508-07a2-4543-bac4-2564eb6587c7)
+
 

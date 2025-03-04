@@ -10,7 +10,7 @@ SUBDIRECCIÓN ACADÉMICA
 DEPARTAMENTO DE SISTEMAS Y COMPUTACIÓN  
 PERIODO:  Enero - Julio 2025
 
-Ingeniería en Sistemas Computacionales 
+Ingeniería en Sistemas Computacionales  
 Lenguaje de Interfaz  
 **SCC-1014**  
 **UNIDAD 2:**  

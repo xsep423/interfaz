@@ -1,3 +1,35 @@
+<div align="center">
+    
+## TECNOLÓGICO NACIONAL DE MÉXICO  
+## INSTITUTO TECNOLÓGICO DE TIJUANA  
+
+### SUBDIRECCIÓN ACADÉMICA  
+### DEPARTAMENTO DE SISTEMAS Y COMPUTACIÓN  
+
+**SEMESTRE:**  
+Enero - Junio 2025  
+
+**CARRERA:**  
+Ingeniería en Sistemas Computacionales  
+
+**MATERIA:**  
+Lenguajes de Interfaz
+
+**SERIE Y CLAVE:**  
+SC6B y SCC-1014
+
+**UNIDAD:**  
+1
+
+**NOMBRE Y NÚMERO DE CONTROL DEL ALUMNO:**  
+Simental González Saúl Omar, 24210765
+
+**NOMBRE DEL MAESTRO(A):**  
+René Solís Reyes  
+
+</div>
+------------------------------------------------------------------------------------------------------------------------------------------
+
 ### Simular encendido y apagado de un LED a intervalos regulares con retardos.
 
 ```asm

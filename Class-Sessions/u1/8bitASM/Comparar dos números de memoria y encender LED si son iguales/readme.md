@@ -1,10 +1,16 @@
 ## i. Código fuente documentado
-
----------
-	;SUÁREZ CASTRO JAIR ALBERTO 22211663
-	; PROGRAMA PARA COMPARAR DOS NÚMEROS Y ENCENDER LED SI SON IGUALES
-	; Este programa guarda dos números en memoria, los compara
-	; y enciende un LED (pone 1 en Rd) si son iguales
+```
+	;===============================================================
+	;Instituto tecnológico de Tijuana
+	;Ingeniería en sistemas computacionales 
+	; Nombre del programa  : Comparar dos números de memoria y encender LED si son iguales
+	; Autor              : [Suárez Castro Jair Alberto - 22211663]
+	; Fecha              : [03/03/2025]
+	; Título              : [PROGRAMA PARA COMPARAR DOS NÚMEROS Y ENCENDER LED SI SON IGUALES]
+	; Descripción        : [Este programa guarda dos números en memoria, los compara y enciende un LED (pone 1 en Rd) si son iguales]
+	; Ensamblador        : [Troy's Breadboard Computer]
+	; Arquitectura       : [CPU personalizada]
+	;===============================================================
 
 	.init:
 	    ; Guardar los números en memoria
@@ -47,7 +53,7 @@
 	    
 	.end:
 	    hlt           ; Detener la ejecución
-
+```
 ---------------------
 ## ii. Informe
 Este programa realiza una comparación entre dos números. Si los dos números son iguales, entonces manda un mensaje de encendido en la led del marcador escribiendo un uno (Encendido) y si no son iguales escribe un 0 (Apagado).

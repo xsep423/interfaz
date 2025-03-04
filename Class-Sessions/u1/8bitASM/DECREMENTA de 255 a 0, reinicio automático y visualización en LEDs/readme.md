@@ -1,4 +1,29 @@
-# DECREMENTA de 255 a 0, reinicio automático y visualización en LEDs
+
+![logo_TECT](https://github.com/user-attachments/assets/505e6106-846b-4322-bfc6-92462620cc70)
+
+**TECNOLÓGICO NACIONAL DE MÉXICO**
+
+**INSTITUTO TECNOLÓGICO DE TIJUANA**
+
+DEPARTAMENTO DE SISTEMAS Y COMPUTACIÓN
+
+SEMESTRE: ENERO-JULIO 2025
+
+INGENIERÍA EN SISTEMAS COMPUTACIONALES
+
+LENGUAJES DE INTERFAZ 
+
+DOCENTE: RENE SOLIS REYES
+
+SERIE: SC6B CLAVE: SCC-1014
+
+***DECREMENTA de 255 a 0, reinicio automático y visualización en LEDs***
+
+UNIDAD I
+
+CAMPAÑA VÁZQUEZ ALFREDO #22211529
+
+__________________________________________________________________________
 
 ## Explicación del programa
 

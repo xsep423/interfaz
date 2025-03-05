@@ -10,7 +10,7 @@ Clave: ______
 
 ----
 
-Para 3pm
+Para 4pm
 
 https://www.figma.com/board/szK0ChC8Yq0ufPSFl1Jv83/Poster-ARM2-4pm?node-id=0-1&t=JiweQMiLrgrAM2xv-1
 

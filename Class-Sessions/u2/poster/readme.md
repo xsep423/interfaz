@@ -1,3 +1,6 @@
+<img width="1173" alt="Screenshot 2025-03-04 at 4 28 18 p m" src="https://github.com/user-attachments/assets/4e96fa30-5347-47c6-9de7-199cf7e0ceb2" />
+
+
 
 
 **Actividad: "Poster de ARM32 Acordeón"**

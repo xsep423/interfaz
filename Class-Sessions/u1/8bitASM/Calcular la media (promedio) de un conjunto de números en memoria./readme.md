@@ -67,3 +67,13 @@ El codigo usado fue el siguiente:
 
 .end:
     hlt             ; Detener ejecución
+```
+## Conclusión
+
+En esta actividad, se logró implementar un algoritmo en ensamblador para calcular la media de un conjunto de números almacenados en memoria. Se realizaron optimizaciones para garantizar la compatibilidad con el emulador de CPU, asegurando el uso correcto de registros e instrucciones soportadas. A través de este ejercicio, se reforzaron los conceptos de manipulación de memoria, estructuras de control y operaciones aritméticas en una arquitectura de 8 bits.
+
+## Agradecimiento
+
+Agradezco a los instructores y compañeros que brindaron apoyo durante el desarrollo de esta actividad. Esta experiencia ha sido fundamental para mejorar la comprensión del lenguaje ensamblador y su aplicación en sistemas con recursos limitados. Cualquier sugerencia o mejora al código es bienvenida. ¡Gracias por su tiempo y colaboración!
+
+![Texto del enlace](https://github.com/NavaGeimer/new-horizons/blob/main/Captura%20de%20pantalla%202025-03-05%20105001.png?raw=true)

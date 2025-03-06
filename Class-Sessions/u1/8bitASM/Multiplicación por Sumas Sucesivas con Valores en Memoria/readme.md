@@ -91,23 +91,12 @@ El objetivo de este código es realizar una **multiplicación** entre dos númer
 3. **Finalización:**
    - El ciclo termina cuando el contador (`Rd`) alcanza el valor del multiplicador (`Rc`), es decir, cuando se han realizado todas las sumas necesarias.
    - El resultado se encuentra en el acumulador (`Ra`) y se muestra en pantalla utilizando la instrucción `mvd Ra`.
+![image](https://github.com/user-attachments/assets/52c04bad-75b3-48e2-9832-bf50bc33ed6b)
 
 4. **Mantener Ejecución:**
    - El programa entra en un bucle infinito al final (`jmp .end`) para mantener el resultado visible en pantalla.
 
-#### 🧮 **Ejemplo de Funcionamiento:**
-
-Si tomamos los siguientes valores como ejemplo:
-- **Multiplicando** = 3 (valor almacenado en `0x10`).
-- **Multiplicador** = 4 (valor almacenado en `0x11`).
-
-El proceso de multiplicación será:
-- **Primera iteración**: `Ra = 0 + 3 = 3`
-- **Segunda iteración**: `Ra = 3 + 3 = 6`
-- **Tercera iteración**: `Ra = 6 + 3 = 9`
-- **Cuarta iteración**: `Ra = 9 + 3 = 12`
-
-El resultado final es **12**, que es el producto de 3 por 4.
+![image](https://github.com/user-attachments/assets/1b70d0eb-32a3-4d6e-ab1e-881c2bbf818f)
 
 #### 📊 **Conclusión:**
 Este programa implementa una multiplicación utilizando el método de **sumas sucesivas** de una manera simple y eficiente en un entorno de ensamblador. El código realiza la multiplicación sumando el número multiplicando tantas veces como lo indique el multiplicador. Este tipo de algoritmos son fundamentales para entender cómo las computadoras pueden realizar operaciones aritméticas sin utilizar multiplicadores hardware complejos.

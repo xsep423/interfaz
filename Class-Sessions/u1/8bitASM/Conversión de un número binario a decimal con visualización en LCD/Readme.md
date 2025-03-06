@@ -159,3 +159,5 @@ El programa toma un número binario de 8 bits, lo convierte a su equivalente dec
 
 ## Demostración 🖥️🔍
 
+![Captura de pantalla 2025-03-05 152140](https://github.com/user-attachments/assets/0a3c54eb-66a8-45e7-a324-1677fb0f219c)
+![Captura de pantalla 2025-03-05 152212](https://github.com/user-attachments/assets/f4529202-1338-4167-9658-495dd47feb03)

@@ -2,6 +2,8 @@
 
 ## 📌 Descripción
 
+Rivera Garcia Rodrigo - 22211642
+
 Este proyecto implementa un programa en ensamblador para el **emulador de Troy’s Breadboard Computer**, que invierte los bits de un número almacenado en memoria y muestra el resultado en la salida (LCD, LEDs o display de 7 segmentos).  
 
 ---

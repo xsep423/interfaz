@@ -1,3 +1,6 @@
+![Screenshot 2024-05-19 at 12 53 03](https://github.com/user-attachments/assets/66d23c3e-c8d8-4013-873b-7b57cdaf8eb5)
+
+
 **Raspberry Pi Imager** es una herramienta oficial desarrollada por la **Raspberry Pi Foundation** que permite instalar fácilmente un sistema operativo en una tarjeta microSD para usarla en una **Raspberry Pi**.
 
 ### 🔹 ¿Para qué sirve?

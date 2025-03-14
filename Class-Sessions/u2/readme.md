@@ -7,11 +7,13 @@
 ## ▶️ **Parte 1:**
 - [🔗 Ver video](https://www.loom.com/share/0f7c1fbd4e3b4602b631bd0c9002bb24?sid=b83e5c89-d7b3-4a1a-89e5-c89d7b34a1a8)
 
-## ▶️ **Parte 2:**
+  ## ▶️ **Parte 2:**
 - [🔗 Ver video](https://www.loom.com/share/85098f4425514f1cb14ec20147d58619?sid=fb40e16f-9530-41fc-802a-e81c56b2b376)
+
 
 ## ▶️ **Parte 3:**
 - [🔗 Ver video](https://www.loom.com/share/85098f4425514f1cb14ec20147d58619?sid=fb40e16f-9530-41fc-802a-e81c56b2b376)
+
 
 ---
 

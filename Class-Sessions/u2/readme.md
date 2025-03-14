@@ -1,4 +1,5 @@
-https://assets.raspberrypi.com/static/cae033089d1af85f2a535b80a6d12db6/f5ed1/documentation.webp![image](https://github.com/user-attachments/assets/4b01c77e-a369-4126-821d-25e7f38da857)
+
+![Screenshot 2025-03-13 at 10 44 42 p m](https://github.com/user-attachments/assets/815cdb0b-f23d-407f-84b3-78d86a11a39f)
 
 
 # 📚 **Videos Raspberry Pi Compute Module 4 (Interfaz y configuración)**

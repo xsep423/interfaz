@@ -22,5 +22,7 @@
 - **NO** conectar el cable de alimentación de 5V al Raspberry Pi.
 
 ---
+## Tarjetas SD y RaspberryPI 4 ---
+https://www.loom.com/share/bba1e08357784e5cb48e8a7ab2fb0931?sid=d80c0e43-34e6-441a-b2a6-cd1571efab12
 
 ✨ ¡Éxito en tus prácticas con Raspberry Pi!

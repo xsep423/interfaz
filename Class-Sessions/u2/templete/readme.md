@@ -32,7 +32,7 @@ Aquí está la sesión de terminal grabada:
 ---
 # 2.- TEMPLETE
 
-   _Como docente es de gran oportuniad trabajar con alto nivel la solucion el comentario abajo del encabezado, puede ser Python3, go, Prolog, CSharp, Java, etc. aqui lo importante es ver la prespectiva de como las "pimitivas de ensamblador se proyectar ante Ud._
+   _Como docente es de gran oportuniad trabajar con alto nivel la solucion el comentario abajo del encabezado, puede ser Python3, go, Prolog, CSharp, Java, etc. aqui lo importante es ver la prespectiva de como las "pimitivas" de ensamblador se proyectar ante Ud._
 
 ```bash
 /*

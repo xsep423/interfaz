@@ -17,7 +17,7 @@ users=(
 # Set default password for all users
 for user in "${users[@]}"; do
     echo "Setting password for $user"
-    echo "$user:!Tec123¨" | sudo chpasswd
+    echo "$user:!XXXXPREGUNTARPROFEXXX¨" | sudo chpasswd
 done
 
 echo "Passwords set for all users! 🚀"

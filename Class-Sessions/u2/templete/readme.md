@@ -134,6 +134,9 @@ Antes de subir a Gist, necesitas un Personal Access Token (PAT) de GitHub con el
 
 
 ### 📌 **Templete de Makefile**
+
+- Video:  https://www.loom.com/share/ab72800ce6534f9f85ba1a5a07dabe33?sid=99857843-c939-4cbd-987e-fec9f4878da6
+  
 ```bash
 # Makefile para compilar, limpiar y subir el programa hola.s a Gist en ARM64
 
@@ -183,4 +186,5 @@ upload_gist:
 
 ```
 ---
+
 

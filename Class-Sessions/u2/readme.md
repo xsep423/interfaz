@@ -1,6 +1,6 @@
 
 ![Screenshot 2025-03-13 at 10 44 42 p m](https://github.com/user-attachments/assets/815cdb0b-f23d-407f-84b3-78d86a11a39f)
-
+# 1.- CONOCIENDO EL HARDWARE ARM CON RPI
 
 # 📚 **Videos Raspberry Pi Compute Module 4 (Interfaz y configuración)**
 
@@ -28,7 +28,7 @@ https://www.loom.com/share/bba1e08357784e5cb48e8a7ab2fb0931?sid=d80c0e43-34e6-44
 ✨ ¡Éxito en tus prácticas con Raspberry Pi!
 
 ---
-# SETUP RaspberryPi 5 de 8Gb RAM, 512 M.2
+# 2.- SETUP RaspberryPi 5 de 8Gb RAM, 512 M.2
 
 ```bash
 #!/bin/bash
@@ -100,3 +100,27 @@ gdb -ex "gef help" -ex quit
 ###############################################################
 
 ```
+3.- POR CUENTA INSTALAR COMPLEMENTO "GDB" CON GEF PARA EXTENDERLO
+
+_GEF (GDB Enhanced Features) es un complemento para GDB (GNU Debugger) que proporciona características avanzadas para depuración, especialmente en análisis de programas binarios, seguridad informática y desarrollo en ensamblador. Es una alternativa más ligera a herramientas como PEDA o Pwndbg._
+
+### 📌 **Características principales de GEF**
+- 🔍 **Mejora la interfaz de GDB** con comandos más intuitivos.
+- 🛠️ **Extensiones para análisis de exploits**, como stack canaries, ASLR y protección RELRO.
+- 🔢 **Visualización mejorada de registros, pila y memoria** en debugging de binarios.
+- 📊 **Soporte para debugging en arquitecturas x86, x86-64, ARM, MIPS y otras**.
+- 🔄 **Integración con otras herramientas de reversing**, como ROPgadget y Capstone.
+
+### ✅ **¿Cómo instalar GEF?**
+Para instalar GEF en Linux, usa:
+```sh
+wget -O ~/.gdbinit -q https://gef.blah.cat/py
+```
+Luego, abre GDB y GEF se activará automáticamente.
+
+Si necesitas usarlo en depuración de código en **ensamblador ARM64**, GEF es útil para analizar registros y la ejecución de instrucciones en arquitecturas embebidas.
+
+¿Quieres saber cómo usar GEF para debugging de código en ensamblador ARM? 🚀
+
+## ▶️ **ENLACE E INSTALACION GEF:**
+- https://www.loom.com/share/f44d5e8b85f84d2784e3c2855823b8c2?sid=37a865ae-f5d0-44af-860f-089d8e97d128

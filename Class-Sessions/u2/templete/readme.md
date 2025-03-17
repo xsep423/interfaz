@@ -75,8 +75,45 @@ ejemplos de uso:
 
 ----
 
-# 3.- CMAKE para automatizar compilación, limpieza de temporales y subir al GIST
+# 3.-  🚀 **Importancia de Make y CMake en Desarrollo Embebido**  
 
+En el desarrollo embebido, la gestión eficiente del código y la compilación es clave para proyectos optimizados y escalables. **Make y CMake** son herramientas esenciales en este proceso:
+
+#### ✅ **Make: Simplicidad y Control Manual**
+- Permite **automatizar la compilación** de programas embebidos con **Makefiles**.
+- Ofrece **control granular** sobre cada paso del proceso.
+- Ideal para **proyectos pequeños** y desarrollo en plataformas con recursos limitados (como Raspberry Pi).
+
+#### ✅ **CMake: Escalabilidad y Portabilidad**
+- Funciona como un **generador de Makefiles**, facilitando la compatibilidad con múltiples arquitecturas.
+- Es **más flexible** y se usa en **proyectos grandes** donde la compilación debe adaptarse a diferentes entornos.
+- Permite **gestión avanzada** de bibliotecas y dependencias.
+
+En sistemas embebidos como **RaspbianOS en ARM64**, `Make` es preferido por su **ligereza**, pero `CMake` es una opción avanzada cuando se requiere **portabilidad**
+
+### ✅ **Generales de nuestro Makefile**
+- **Compila y enlaza `hola.s` automáticamente.**
+- **Limpia archivos generados (`make clean`).**
+- **Depura con `gdb` (`make debug`).**
+- **Sube `hola.s` a Gist con `make upload_gist`**:
+  - Usa `curl` para enviar el código a GitHub.
+  - Guarda el enlace del Gist en `gist_url.txt`.
+  - **Necesitas agregar tu token de GitHub en la variable `TOKEN`.**
+
+### 📌 **Cómo Usarlo**
+1️⃣ **Compilar:**
+```bash
+make
+```
+2️⃣ **Limpiar:**
+```bash
+make clean
+```
+3️⃣ **Subir a Gist:**
+```bash
+make upload_gist
+```
+---
 ```bash
 # Makefile para compilar, limpiar y subir el programa hola.s a Gist en ARM64
 

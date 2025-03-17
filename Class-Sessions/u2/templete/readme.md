@@ -123,6 +123,16 @@ $ make upload_gist
 ```
 ---
 
+🚀 Procedimiento para Subir hola.s a GitHub Gist
+1️⃣ Generar un Token de Acceso en GitHub
+
+Antes de subir a Gist, necesitas un Personal Access Token (PAT) de GitHub con el permiso gist:
+
+- Ve a GitHub Tokens. https://github.com/settings/tokens
+- Genera un token con acceso a Gist.
+- Guarda el token en un lugar seguro, ya que solo se muestra una vez.
+
+
 ### 📌 **Templete de Makefile**
 ```bash
 # Makefile para compilar, limpiar y subir el programa hola.s a Gist en ARM64
@@ -139,8 +149,8 @@ AS = as
 LD = ld
 
 # Token de GitHub para subir a Gist (cambiar por el tuyo)
-TOKEN = TU_TOKEN_AQUI
-GIST_DESC = "Código Assembly ARM64 Hola Mundo para RaspbianOS"
+TOKEN = TU_TOKEN_AQUI_QUE_CREA_GIST_VER_LOOM
+GIST_DESC = Codigo Assembly ARM64 Hola Mundo para RaspbianOS
 
 # Reglas de compilación
 default: $(TARGET)
@@ -159,21 +169,18 @@ clean:
 debug: $(TARGET)
 	gdb $(TARGET)
 
-# Regla para subir hola.s a Gist
+# Regla para subir hola.s a Gist sin errores de formato
 upload_gist:
+	@echo "Subiendo hola.s a Gist..."
+	@jq -Rs '{"description": "$(GIST_DESC)", "public": true, "files": {"$(ASM_SRC)": {"content": .}}}' < $(ASM_SRC) > gist_payload.json
 	@curl -s -X POST https://api.github.com/gists \
 		-H "Authorization: token $(TOKEN)" \
 		-H "Content-Type: application/json" \
-		-d '{ 
-		  "description": "$(GIST_DESC)", 
-		  "public": true, 
-		  "files": { 
-		    "$(ASM_SRC)": { 
-		      "content": "'"'"$(shell cat $(ASM_SRC))"'"'" 
-		    } 
-		  } 
-		}' | jq -r '.html_url' | tee gist_url.txt
+		-d @gist_payload.json | tee gist_response.json
+	@cat gist_response.json | jq -r '.html_url' | tee gist_url.txt
+	@rm -f gist_payload.json gist_response.json
 	@echo "📌 Gist creado y guardado en gist_url.txt"
+
 ```
 ---
 

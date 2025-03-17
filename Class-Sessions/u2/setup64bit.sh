@@ -10,6 +10,7 @@
 
 # Anuncia visualmente inicio de la actualización usando figlet
 # Corrida:
+#    $ sudo apt install figlet
 #    $ chmod +x setup64bit.sh
 #    $ ./setup64bit.sh
 # 

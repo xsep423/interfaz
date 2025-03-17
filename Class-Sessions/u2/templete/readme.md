@@ -28,48 +28,55 @@ Aquí está la sesión de terminal grabada:
  Grabar la terminal y subirla a asciinema.org, especificando un título:
     asciinema rec -t "Mi tutorial de git"
 ```
----
 
-```bash
-➜  ~ asciinema -h
-uso: asciinema [-h] [--version] {rec,play,cat,upload,auth} ...
-
-Graba y comparte tus sesiones de terminal, de la manera correcta.
-
-argumentos posicionales:
-  {rec,play,cat,upload,auth}
-    rec                 Grabar sesión de terminal
-    play                Reproducir sesión de terminal
-    cat                 Imprimir la salida completa de la sesión de terminal
-    upload              Subir la sesión de terminal guardada localmente a asciinema.org
-    auth                Gestionar grabaciones en la cuenta de asciinema.org
-
-opciones:
-  -h, --help            mostrar este mensaje de ayuda y salir
-  --version             mostrar el número de versión del programa y salir
-
-ejemplos de uso:
-  Grabar la terminal y subirla a asciinema.org:
-    asciinema rec
-  Grabar la terminal en un archivo local:
-    asciinema rec demo.cast
-  Grabar la terminal y subirla a asciinema.org, especificando un título:
-    asciinema rec -t "Mi tutorial de git"
-  Grabar la terminal en un archivo local, limitando el tiempo de inactividad a un máximo de 2.5 segundos:
-    asciinema rec -i 2.5 demo.cast
-  Reproducir una grabación de terminal desde un archivo local:
-    asciinema play demo.cast
-  Reproducir una grabación de terminal alojada en asciinema.org:
-    asciinema play https://asciinema.org/a/difqlgx86ym6emrmd8u62yqu8
-  Imprimir la salida completa de una sesión grabada:
-    asciinema cat demo.cast
-´´´
 ---
 # 2.- TEMPLETE
 
    _Como docente es de gran oportuniad trabajar con alto nivel la solucion el comentario abajo del encabezado, puede ser Python3, go, Prolog, CSharp, Java, etc. aqui lo importante es ver la prespectiva de como las "pimitivas de ensamblador se proyectar ante Ud._
 
 ```bash
+/*
+ * ---------------------------------------------------------------------------------
+ *  Lenguajes de Interfaz en TECNM Campus ITT
+ *  Autor: [Tu Nombre]
+ *  Fecha: [YYYY-MM-DD]
+ *  Descripción: Esta plantilla proporciona una estructura profesional para el desarrollo
+ *               embebido, incluyendo C# y Assembly ARM64 para RaspbianOS.
+ *  Demostración:  [ ASCIINEMA.ORG/.....]
+ * ---------------------------------------------------------------------------------
+ */
+
+/*
+ * ----------------------------------------------
+ * C# "Hola, Mundo!" para Desarrolladores Embebidos (Referencia)
+ * ----------------------------------------------
+ * using System;
+ *
+ * class Program {
+ *     static void Main() {
+ *         Console.WriteLine("Hola, Mundo!");
+ *     }
+ * }
+ */
+
+.global _start
+.section .data
+mensaje: .ascii "Hola, Mundo!\n"
+len = . - mensaje
+
+.section .text
+_start:
+    // Llamada al sistema para escribir (sys_write)
+    mov x0, #1          // Descriptor de archivo para stdout
+    ldr x1, =mensaje    // Puntero al mensaje
+    mov x2, len         // Longitud del mensaje
+    mov x8, #64         // Syscall: write
+    svc #0              // Invocar syscall
+
+    // Llamada al sistema para salir (sys_exit)
+    mov x0, #0          // Estado 0
+    mov x8, #93         // Syscall: exit
+    svc #0              // Invocar syscall
 
 ```
 
@@ -114,6 +121,8 @@ make clean
 make upload_gist
 ```
 ---
+
+### 📌 **Templete de Makefile**
 ```bash
 # Makefile para compilar, limpiar y subir el programa hola.s a Gist en ARM64
 

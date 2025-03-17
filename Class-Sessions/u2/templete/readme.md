@@ -23,7 +23,7 @@ Aquí está la sesión de terminal grabada:
 [![Ver grabación](https://asciinema.org/a/ID-DE-LA-GRABACIÓN.svg)](https://asciinema.org/a/ID-DE-LA-GRABACIÓN)
 ```
 
-📌 **Recomendación**: Siempre  Grabar la terminal y subirla a asciinema.org, especificando un título::
+📌 **Recomendación**: Siempre  Grabar la terminal y subirla a asciinema.org, especificando un título, támbien documentarlo una vez resguardado en markdown:
 ```bash
  Grabar la terminal y subirla a asciinema.org, especificando un título:
     asciinema rec -t "Mi tutorial de git"

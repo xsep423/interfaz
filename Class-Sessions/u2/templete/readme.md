@@ -19,9 +19,9 @@
 
 ### Grabación de Terminal con Asciinema
 Aquí está la sesión de terminal grabada:
-
+```bash
 [![Ver grabación](https://asciinema.org/a/ID-DE-LA-GRABACIÓN.svg)](https://asciinema.org/a/ID-DE-LA-GRABACIÓN)
-
+```
 
 📌 **Recomendación**: Siempre  Grabar la terminal y subirla a asciinema.org, especificando un título::
 ```bash
@@ -31,8 +31,7 @@ Aquí está la sesión de terminal grabada:
 ---
 
 ```bash
-
-➜  ~ asciinema
+➜  ~ asciinema -h
 uso: asciinema [-h] [--version] {rec,play,cat,upload,auth} ...
 
 Graba y comparte tus sesiones de terminal, de la manera correcta.
@@ -65,3 +64,69 @@ ejemplos de uso:
   Imprimir la salida completa de una sesión grabada:
     asciinema cat demo.cast
 ´´´
+---
+# 2.- TEMPLETE
+
+   _Como docente es de gran oportuniad trabajar con alto nivel la solucion el comentario abajo del encabezado, puede ser Python3, go, Prolog, CSharp, Java, etc. aqui lo importante es ver la prespectiva de como las "pimitivas de ensamblador se proyectar ante Ud._
+
+```bash
+
+```
+
+----
+
+# 3.- CMAKE para automatizar compilación, limpieza de temporales y subir al GIST
+
+```bash
+# Makefile para compilar, limpiar y subir el programa hola.s a Gist en ARM64
+
+# Nombre del ejecutable
+TARGET = hola
+
+# Archivos fuente
+ASM_SRC = hola.s
+OBJ = hola.o
+
+# Compiladores
+AS = as
+LD = ld
+
+# Token de GitHub para subir a Gist (cambiar por el tuyo)
+TOKEN = TU_TOKEN_AQUI
+GIST_DESC = "Código Assembly ARM64 Hola Mundo para RaspbianOS"
+
+# Reglas de compilación
+default: $(TARGET)
+
+$(TARGET): $(OBJ)
+	$(LD) -o $(TARGET) $(OBJ)
+
+$(OBJ): $(ASM_SRC)
+	$(AS) -o $(OBJ) $(ASM_SRC)
+
+# Regla para limpiar los archivos generados
+clean:
+	rm -f $(OBJ) $(TARGET)
+
+# Regla de depuración
+debug: $(TARGET)
+	gdb $(TARGET)
+
+# Regla para subir hola.s a Gist
+upload_gist:
+	@curl -s -X POST https://api.github.com/gists \
+		-H "Authorization: token $(TOKEN)" \
+		-H "Content-Type: application/json" \
+		-d '{ 
+		  "description": "$(GIST_DESC)", 
+		  "public": true, 
+		  "files": { 
+		    "$(ASM_SRC)": { 
+		      "content": "'"'"$(shell cat $(ASM_SRC))"'"'" 
+		    } 
+		  } 
+		}' | jq -r '.html_url' | tee gist_url.txt
+	@echo "📌 Gist creado y guardado en gist_url.txt"
+```
+---
+

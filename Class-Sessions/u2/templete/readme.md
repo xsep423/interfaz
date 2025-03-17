@@ -24,9 +24,10 @@ Aquí está la sesión de terminal grabada:
 ```
 
 📌 **Recomendación**: Siempre  Grabar la terminal y subirla a asciinema.org, especificando un título, támbien documentarlo una vez resguardado en markdown:
-```bash
+
  Grabar la terminal y subirla a asciinema.org, especificando un título:
-    asciinema rec -t "Mi tutorial de git"
+```bash
+  $  asciinema rec -t "Mi tutorial de git"
 ```
 
 ---
@@ -110,15 +111,15 @@ En sistemas embebidos como **RaspbianOS en ARM64**, `Make` es preferido por su *
 ### 📌 **Cómo Usarlo**
 1️⃣ **Compilar:**
 ```bash
-make
+$ make
 ```
 2️⃣ **Limpiar:**
 ```bash
-make clean
+$ make clean
 ```
 3️⃣ **Subir a Gist:**
 ```bash
-make upload_gist
+$ make upload_gist
 ```
 ---
 

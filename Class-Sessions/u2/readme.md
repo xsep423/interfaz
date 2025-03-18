@@ -120,7 +120,10 @@ _GEF (GDB Enhanced Features) es un complemento para GDB (GNU Debugger) que propo
 - 📊 **Soporte para debugging en arquitecturas x86, x86-64, ARM, MIPS y otras**.
 - 🔄 **Integración con otras herramientas de reversing**, como ROPgadget y Capstone.
 
-### ✅ **¿Cómo instalar GEF?**
+---
+
+### ✅ **¿Cómo instalar GEF? en sus cuentas remotas**
+
 Para instalar GEF en Linux, usa:
 ```sh
 wget -O ~/.gdbinit -q https://gef.blah.cat/py

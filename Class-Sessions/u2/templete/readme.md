@@ -33,6 +33,56 @@ Aquí está la sesión de terminal grabada:
 ---
 # 2.- TEMPLETE
 
+### **Alternativa a VS Code en 100% Consola: Nano con Resaltado de Sintaxis para ARM Assembly en Linux**
+
+Si necesitas una alternativa a VS Code completamente en consola y con **resaltado de sintaxis para ARM Assembly**, **Nano** es una excelente opción, ya que es simple, ligero y viene preinstalado en la mayoría de las distribuciones de Linux.
+
+---
+# EDITOR SIMPLE "nano" EN LA TERMINAL REMOTA
+
+### **🖥️ 1️⃣ Configurar Nano para Resaltar Código Assembly**
+Por defecto, Nano no resalta la sintaxis de archivos `.s`, pero puedes habilitarlo fácilmente siguiendo estos pasos:
+
+### **🔹 Activar el Resaltado de Sintaxis para ARM en Nano**
+1️⃣ **Abre el archivo de configuración de Nano**:
+   ```bash
+   nano ~/.nanorc
+   ```
+   
+2️⃣ **Añade la siguiente línea para habilitar el resaltado en archivos `.s`**:
+   ```
+   include /usr/share/nano/asm.nanorc
+   ```
+
+3️⃣ **Guarda los cambios y sal de Nano**:
+   - Pulsa `CTRL + X`
+   - Luego `Y` (para confirmar los cambios)
+   - Finalmente `ENTER`
+
+4️⃣ **Abre tu archivo de código en ensamblador ARM con Nano**:
+   ```bash
+   nano mycode.s
+   ```
+
+---
+
+### **✅ Ventajas y ❌ Desventajas de Usar Nano**
+✔ **Pros**:
+- ✅ Simple y fácil de usar.
+- ✅ Ligero y preinstalado en la mayoría de los sistemas Linux.
+- ✅ No requiere configuraciones avanzadas.
+
+❌ **Contras**:
+- ❌ Resaltado de sintaxis **básico** (sin funciones avanzadas como autocompletado).
+- ❌ No es tan potente como Vim o Neovim para el desarrollo.
+
+---
+
+### **🚀 ¿Por qué elegir Nano?**
+Si solo necesitas **editar y visualizar código ARM Assembly en la terminal sin complicaciones**, **Nano es una opción rápida y funcional**. Si buscas algo más avanzado, podrías considerar **Vim o Neovim**.
+
+🔹 **¿Te gustaría una opción más avanzada?** ¡Avísame y te ayudo a configurarla! 🚀
+
    _Como docente es de gran oportuniad trabajar con alto nivel la solucion el comentario abajo del encabezado, puede ser Python3, go, Prolog, CSharp, Java, etc. aqui lo importante es ver la prespectiva de como las "pimitivas" de ensamblador se proyectar ante Ud._
 
 ```bash

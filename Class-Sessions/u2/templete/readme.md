@@ -1,5 +1,6 @@
 ![asciinema](https://github.com/user-attachments/assets/cefe7f1d-ea8c-4e85-81f5-b13902319c4f)
 
+
 ## 1.- Grabación:
    Toda practica en esta unidad es evidenciada con Asciinema, que permite recolectar memoria de la corrida de su programa
 
@@ -10,6 +11,9 @@
 - Asciinema **almacena temporalmente** las grabaciones en sus servidores.
 - **Si no se recupera la grabación en 7 días**, se eliminará automáticamente.
 - Para evitar la pérdida de información, es importante **descargar o almacenar la grabación localmente**.
+
+### Apoyo adicional en GTP
+- https://chatgpt.com/g/g-6797062a365c8191bc57748eb977823a-asciinema-expert
 
 ### 📝 **Exportación en Markdown**
 - Cada grabación en **Asciinema** puede documentarse en **Markdown**.

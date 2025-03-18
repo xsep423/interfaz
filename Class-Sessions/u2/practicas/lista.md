@@ -50,3 +50,16 @@ Aquí tienes una tabla en formato **Markdown** con programas en **ensamblador AR
 | 22211539      | Escribir un programa en ensamblador ARM64 que determine si una matriz es simétrica. |
 | 23210571      | Implementar un programa en ensamblador ARM64 que realice la suma de los elementos de dos arreglos. |
 | 22211546      | Crear un programa en ensamblador ARM64 que implemente el algoritmo de Euclides para el MCD. |
+
+
+# Rúbrica de Evaluación - Programas en ARM64 Assembly
+
+| Criterio                          | Descripción                                                                                                                                 | Puntos |
+|----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|--------|
+| **Template Especializado (20%)**  | Uso de un template estructurado para codificación en ensamblador ARM64. Debe incluir: encabezado del programador, sección de datos, sección de código, estructura clara con etiquetas significativas. | 20     |
+| **Asciinema del Programa (20%)**  | Grabación en Asciinema mostrando el proceso completo: ejecución del programa, ingreso de datos (si aplica) y salida esperada.            | 20     |
+| **Solución Funcional (20%)**      | El programa debe ejecutarse sin errores, cumplir con el problema planteado y manejar correctamente los datos de entrada y salida.        | 20     |
+| **Comentarios en Alto Nivel (20%)** | Explicación clara del código en español utilizando comentarios. Se espera que cada parte importante tenga un comentario explicativo de su propósito. | 20     |
+| **Gist Código y Demostrativo (20%)** | Publicación en Gist de GitHub con el código en ensamblador ARM64 y una descripción detallada del funcionamiento del programa, incluyendo una demostración en texto o enlace al Asciinema. | 20     |
+
+## **Calificación Total: 100 puntos**

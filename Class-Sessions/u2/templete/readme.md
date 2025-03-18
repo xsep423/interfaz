@@ -40,6 +40,9 @@ Si necesitas una alternativa a VS Code completamente en consola y con **resaltad
 ---
 # EDITOR SIMPLE "nano" EN LA TERMINAL REMOTA
 
+### **🚀 ¿Por qué elegir Nano?**
+Si solo necesitas **editar y visualizar código ARM Assembly en la terminal sin complicaciones**, **Nano es una opción rápida y funcional**. Si buscas algo más avanzado, podrías considerar **Vim o Neovim**.
+
 ### **🖥️ 1️⃣ Configurar Nano para Resaltar Código Assembly**
 Por defecto, Nano no resalta la sintaxis de archivos `.s`, pero puedes habilitarlo fácilmente siguiendo estos pasos:
 
@@ -63,10 +66,7 @@ Por defecto, Nano no resalta la sintaxis de archivos `.s`, pero puedes habilitar
    ```bash
    nano mycode.s
    ```
-
 ---
-
-### **✅ Ventajas y ❌ Desventajas de Usar Nano**
 ✔ **Pros**:
 - ✅ Simple y fácil de usar.
 - ✅ Ligero y preinstalado en la mayoría de los sistemas Linux.
@@ -78,8 +78,7 @@ Por defecto, Nano no resalta la sintaxis de archivos `.s`, pero puedes habilitar
 
 ---
 
-### **🚀 ¿Por qué elegir Nano?**
-Si solo necesitas **editar y visualizar código ARM Assembly en la terminal sin complicaciones**, **Nano es una opción rápida y funcional**. Si buscas algo más avanzado, podrías considerar **Vim o Neovim**.
+
 
 ---
 ![image](https://github.com/user-attachments/assets/c918e6d3-997e-4a19-a859-f0df26ca82fc)

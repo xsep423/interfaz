@@ -19,7 +19,8 @@ El estudiante será capaz de crear una instancia EC2 en AWS Academy, conectarse 
 ### 1. Acceso a AWS Academy y creación de una instancia EC2 en Amazon Web Services:
 - Ingresa a tu cuenta de **AWS Academy**.
 - Crea una nueva **instancia EC2** con las siguientes especificaciones:
-  - Selecciona una **Amazon Machine Image (AMI)** trabajaremos con el famoso Ubuntu 20.04 LTS.
+  - Selecciona una **Amazon Machine Image (AMI)** trabajaremos con el famoso Ubuntu LTS.
+  - Seleccione la aquitectura ARM (predeterminada esta X86 no equivocarse)
   - Escoge el **tipo de instancia** (recomendado: t2.micro, para esta practica básica
   - Configura correctamente los **grupos de seguridad** (asegurándote de abrir el puerto 22 para SSH, este ya viene habilitado en la creación.
 
@@ -74,6 +75,5 @@ El estudiante será capaz de crear una instancia EC2 en AWS Academy, conectarse 
 
 **RUBRICA**  
 ![Rubrica AWS Basico](https://github.com/user-attachments/assets/1b954623-d2dd-41db-b88a-b923bdd43a73)
-
 
 

@@ -70,6 +70,7 @@ sudo apt install -y \
   vim nano \                 # Editores de texto
   tmux screen \              # Multiplexores de terminal
   htop \                     # Monitor del sistema
+  jq \                       # Command-line JSON processor
   tree file \                # Listado visual de directorios y detección de tipos de archivo
   unzip zip \                # Compresión y descompresión de archivos
   asciinema \                # Grabación de sesiones de terminal

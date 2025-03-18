@@ -1,3 +1,11 @@
+[# BLOQUE 2](https://p84.cooltext.com/Download?File=Cool+Text+-+Bloque+2+478452141267304.png)![image](https://github.com/user-attachments/assets/0b8349da-3bce-4d35-8813-c10eed2618f8)
+
+
+
+## FigJam del la unidad
+
+https://www.figma.com/board/wymy14UHuIrxCcS2r2rJJd/ARM-32-Assembly?node-id=0-1&t=l9LQOhOQtWWfxdiR-1
+
 
 ![Screenshot 2025-03-13 at 10 44 42 p m](https://github.com/user-attachments/assets/815cdb0b-f23d-407f-84b3-78d86a11a39f)
 # 1.- CONOCIENDO EL HARDWARE ARM CON RPI

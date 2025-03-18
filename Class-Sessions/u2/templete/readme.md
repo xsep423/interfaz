@@ -31,7 +31,7 @@ Aquí está la sesión de terminal grabada:
 ```
 
 ---
-# 2.- TEMPLETE
+# 2.- EDITORES DE CODIGO y EXTENSION .s PARA PROGRAMAS
 
 ### **Alternativa a VS Code en 100% Consola: Nano con Resaltado de Sintaxis para ARM Assembly en Linux**
 

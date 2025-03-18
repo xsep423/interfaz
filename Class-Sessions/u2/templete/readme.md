@@ -78,9 +78,6 @@ Por defecto, Nano no resalta la sintaxis de archivos `.s`, pero puedes habilitar
 
 ---
 
-
-
----
 ![image](https://github.com/user-attachments/assets/c918e6d3-997e-4a19-a859-f0df26ca82fc)
 
    _Como docente es de gran oportuniad trabajar con alto nivel la solucion el comentario abajo del encabezado, puede ser Python3, go, Prolog, CSharp, Java, etc. aqui lo importante es ver la prespectiva de como las "pimitivas" de ensamblador se proyectar ante Ud._
@@ -133,7 +130,7 @@ _start:
 
 ----
 
-# 3.-  🚀 **Importancia de Make y CMake en Desarrollo Embebido**  
+# 4.-  🚀 **Importancia de Make y CMake en Desarrollo Embebido**  
 
 En el desarrollo embebido, la gestión eficiente del código y la compilación es clave para proyectos optimizados y escalables. **Make y CMake** son herramientas esenciales en este proceso:
 
@@ -173,7 +170,8 @@ $ make upload_gist
 ```
 ---
 
-🚀 Procedimiento para Subir hola.s a GitHub Gist
+##🚀 Procedimiento para Subir hola.s a GitHub Gist
+
 1️⃣ Generar un Token de Acceso en GitHub
 
 Antes de subir a Gist, necesitas un Personal Access Token (PAT) de GitHub con el permiso gist:

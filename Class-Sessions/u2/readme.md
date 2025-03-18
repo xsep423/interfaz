@@ -8,6 +8,7 @@ https://www.figma.com/board/wymy14UHuIrxCcS2r2rJJd/ARM-32-Assembly?node-id=0-1&t
 
 
 ![Screenshot 2025-03-13 at 10 44 42 p m](https://github.com/user-attachments/assets/815cdb0b-f23d-407f-84b3-78d86a11a39f)
+
 # 1.- CONOCIENDO EL HARDWARE ARM CON RPI
 
 # 📚 **Videos Raspberry Pi Compute Module 4 (Interfaz y configuración)**
@@ -36,7 +37,7 @@ https://www.loom.com/share/bba1e08357784e5cb48e8a7ab2fb0931?sid=d80c0e43-34e6-44
 ✨ ¡Éxito en tus prácticas con Raspberry Pi!
 
 ---
-# 2.- SETUP RaspberryPi 5 de 8Gb RAM, 512 M.2
+# 2.- SETUP RaspberryPi 5 de 8Gb RAM, 512 GB M.2 almacenamiento
 
 ```bash
 #!/bin/bash

@@ -1,6 +1,6 @@
 ![asciinema](https://github.com/user-attachments/assets/cefe7f1d-ea8c-4e85-81f5-b13902319c4f)
 
-## 1.- Grabacion:
+## 1.- Grabación:
    Toda practica en esta unidad es evidenciada con Asciinema, que permite recolectar memoria de la corrida de su programa
 
 ### 📌 **¿Qué es Asciinema?**

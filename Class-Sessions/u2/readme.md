@@ -1,4 +1,4 @@
-[# BLOQUE 2](https://p84.cooltext.com/Download?File=Cool+Text+-+Bloque+2+478452141267304.png)![image](https://github.com/user-attachments/assets/0b8349da-3bce-4d35-8813-c10eed2618f8)
+!(https://p84.cooltext.com/Download?File=Cool+Text+-+Bloque+2+478452141267304.png)![image](https://github.com/user-attachments/assets/0b8349da-3bce-4d35-8813-c10eed2618f8)
 
 
 

@@ -81,7 +81,8 @@ Por defecto, Nano no resalta la sintaxis de archivos `.s`, pero puedes habilitar
 ### **🚀 ¿Por qué elegir Nano?**
 Si solo necesitas **editar y visualizar código ARM Assembly en la terminal sin complicaciones**, **Nano es una opción rápida y funcional**. Si buscas algo más avanzado, podrías considerar **Vim o Neovim**.
 
-🔹 **¿Te gustaría una opción más avanzada?** ¡Avísame y te ayudo a configurarla! 🚀
+---
+![image](https://github.com/user-attachments/assets/c918e6d3-997e-4a19-a859-f0df26ca82fc)
 
    _Como docente es de gran oportuniad trabajar con alto nivel la solucion el comentario abajo del encabezado, puede ser Python3, go, Prolog, CSharp, Java, etc. aqui lo importante es ver la prespectiva de como las "pimitivas" de ensamblador se proyectar ante Ud._
 

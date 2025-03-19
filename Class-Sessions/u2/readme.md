@@ -112,6 +112,8 @@ gdb -ex "gef help" -ex quit
 ```
 3.- POR CUENTA INSTALAR COMPLEMENTO "GDB" CON GEF PARA EXTENDERLO
 
+https://camo.githubusercontent.com/e6043e3e0d24b3a9e6326b86f39955aea709b1d386faa62dc45a6bb2ff8962bd/68747470733a2f2f692e696d6775722e636f6d2f6f304c386c504e2e706e67![image](https://github.com/user-attachments/assets/59598e21-2ed9-40e2-b32b-9b7ae28ca3ac)
+
 _GEF (GDB Enhanced Features) es un complemento para GDB (GNU Debugger) que proporciona características avanzadas para depuración, especialmente en análisis de programas binarios, seguridad informática y desarrollo en ensamblador. Es una alternativa más ligera a herramientas como PEDA o Pwndbg._
 
 ### 📌 **Características principales de GEF**
@@ -121,6 +123,7 @@ _GEF (GDB Enhanced Features) es un complemento para GDB (GNU Debugger) que propo
 - 📊 **Soporte para debugging en arquitecturas x86, x86-64, ARM, MIPS y otras**.
 - 🔄 **Integración con otras herramientas de reversing**, como ROPgadget y Capstone.
 
+Link https://github.com/hugsy/gef
 ---
 
 ### ✅ **¿Cómo instalar GEF? en sus cuentas remotas**

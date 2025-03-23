@@ -1,5 +1,5 @@
 [![Harvard Business School: The Value of Open Source Software](https://img.youtube.com/vi/158po2kbAFU/0.jpg)](https://youtu.be/158po2kbAFU?si=Wg_wKyGe82b5zTa_)
-)
+
 
 # Lectura: El valor económico del software de código abierto
 

@@ -6,7 +6,7 @@ El código tiene como propósitoCalcular el factorial de numero entre 0 y 5. En 
 
 A continuación, se presenta el código fuente:
 
-````
+```asm
 ; FACTORIAL (Cálculo de solo un número entre 0 y 5)
 ; Número a calcular el factorial se coloca en Ra (Ejemplo: 3)
 
@@ -26,6 +26,6 @@ A continuación, se presenta el código fuente:
 
 .end:
     hlt                ; Detiene la ejecución
-````
+```
 
 ![image](https://github.com/user-attachments/assets/981e804d-58f5-402c-acf1-9a5373017b1f)

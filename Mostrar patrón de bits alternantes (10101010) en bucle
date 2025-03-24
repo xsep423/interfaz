@@ -1,0 +1,20 @@
+Alumno: Carretero Ocaña Kevin Isaac
+Numero de control: 22211531
+
+Documentación de emsamblador
+
+Codigo de emsamblador: 
+
+.loop:
+    mva #0xAA   ; Cargar 10101010 en Ra
+    sto Rd, Ra  ; Enviar el valor a la salida      
+
+    jmp .loop   ; Repetir indefinidamente
+
+
+Explicación: 
+Carga el valor 0xAA (10101010) en el registro Ra.
+
+Envía ese valor a la salida Rd (puede ser un puerto de salida conectado a LEDs o algún otro dispositivo).
+
+Repite el proceso indefinidamente usando jmp .loop, asegurando que el patrón se mantenga en bucle.

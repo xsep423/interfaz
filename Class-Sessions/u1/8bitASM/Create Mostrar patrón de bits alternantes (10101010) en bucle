@@ -1,0 +1,29 @@
+#Carretero Ocaña Kevin Isaac - 22211531
+
+#Ejercicio: Mostrar patrón de bits alternantes (10101010) en bucle
+
+#Código fuente documentado
+; Carretero Ocaña Kevin Isaac - 22211531
+; Mostrar patrón de bits alternantes (10101010) en bucle
+
+.loop:
+    mva #0xAA  ; Cargar 10101010 en Ra
+    sto Rd, Ra  ; Enviar el valor a la salida de LEDs (suponiendo que Rd controla los LEDs)
+    jmp .loop  ; Repetir indefinidamente
+
+Explicación del funcionamiento
+
+El programa carga el valor 10101010 (0xAA en hexadecimal) en el registro Ra y luego lo almacena en Rd, que representa la salida de LEDs. Este proceso se ejecuta en un bucle infinito, asegurando que el patrón se mantenga encendido de manera constante.
+
+Tabla de instrucciones
+
+
+mva #0xAA: Carga el valor 10101010 en el registro Ra.
+
+sto Rd, Ra: Almacena el valor de Ra en Rd, que representa la salida de LEDs.
+
+jmp .loop: Salta de nuevo a .loop para repetir el proceso indefinidamente.
+
+#Evidencia
+
+![Evidencia] (https://github.com/xsep423/Imagenes-para-trabajos/blob/df07bd8a37624cfc7eef7b7c27fc358fcba69039/image.png)

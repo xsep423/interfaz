@@ -31,3 +31,5 @@ curl -O https://github.com/tectijuana/interfaz/blob/65091b9dbf44d61a4561f0e4d6c3
 sudo chmod +x  setup64bit.sh
 sudo ./setup64bit.sh
 ```
+
+NOTA: Recomiendo que la configuracion sea manual por esta vez  y valorar las funciones del script. Ya despues solo invocarlo pues conoce que esta configurando.

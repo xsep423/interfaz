@@ -47,7 +47,8 @@ sudo apt install -y \
   asciinema \                # Grabación de sesiones de terminal
   python3 python3-pip python3-dev \ # Herramientas Python
   software-properties-common \ # Administración de repositorios adicionales
-  zsh                        # Shell avanzada
+  zsh     \                   # Shell avanzada
+  jd                          # Parsing de JSON para apoyar a API de GitHub
 
 # Anuncia visualmente la instalación de GEF
 figlet "Instalando GEF"

@@ -1,4 +1,7 @@
 
+
+![Inside a table data](https://github.com/user-attachments/assets/9d306968-6364-4265-9025-dfaef260b0ac)
+
 ## AWS Academy EC2 Ubuntu como Nodo ARM64 para Prácticas de Ensamblador
 
 La plataforma **AWS Academy** permite a estudiantes y docentes acceder a instancias de cómputo en la nube. Una opción ideal para prácticas de lenguaje ensamblador es utilizar una **instancia EC2 con arquitectura ARM64**, basada en los procesadores **Graviton** de Amazon.

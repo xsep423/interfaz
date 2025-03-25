@@ -22,9 +22,9 @@ Este entorno ofrece un laboratorio escalable, económico y seguro para el aprend
 https://www.loom.com/share/ced8fdfc762c40fbae6c165a6ff9b0d1?sid=f496b33d-b7fc-4ed1-9393-c10d0535a537
 
 
-´´´bash
+```bash
 # Para descargar y aplicarlo a el entorno
 curl -O https://github.com/tectijuana/interfaz/blob/65091b9dbf44d61a4561f0e4d6c371ab98e9bdf9/Class-Sessions/u2/setup64bit.sh
 sudo chmod +x  setup64bit.sh
 sudo ./setup64bit.sh
-´´´
+```
